@@ -1,0 +1,12 @@
+[console_scripts]
+cam_node = self_driving.ros2_camera:main
+computer_vision_node = self_driving.computer_vision_node:main
+driving_node = self_driving.driving_node:main
+hand_control_node = self_driving.hand_control_node:main
+pose_node = self_driving.pose_node:main
+recorder_node = self_driving.video_recorder:main
+start_node = self_driving.start_robot:main
+traffic_signal_node = self_driving.traffic_signal:main
+vel_wheel_node = self_driving.wheel_left_right:main
+yolo_node = self_driving.yolo_node:main
+

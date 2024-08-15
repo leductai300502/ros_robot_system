@@ -1,0 +1,4 @@
+[1.133s] Invoking command in '/home/an/ros2_ws/build/diffdrive_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/ros2_ws/build/diffdrive_esp32 -- -j4 -l4
+[1.392s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_esp32.dir/hardware/diffbot_system.cpp.o[0m
+[27.536s] [100%] [32m[1mLinking CXX shared library libdiffdrive_esp32.so[0m
+[28.907s] [100%] Built target diffdrive_esp32

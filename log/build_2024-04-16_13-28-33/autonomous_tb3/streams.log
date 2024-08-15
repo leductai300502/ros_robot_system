@@ -1,0 +1,89 @@
+[5.637s] Invoking command in '/home/an/ros2_ws/src/autonomous_tb3': PYTHONPATH=/home/an/ros2_ws/build/autonomous_tb3/prefix_override:/home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomous_tb3 build --build-base /home/an/ros2_ws/build/autonomous_tb3/build install --record /home/an/ros2_ws/build/autonomous_tb3/install.log --single-version-externally-managed install_data
+[7.136s] running egg_info
+[7.140s] creating ../../build/autonomous_tb3/autonomous_tb3.egg-info
+[7.144s] writing ../../build/autonomous_tb3/autonomous_tb3.egg-info/PKG-INFO
+[7.150s] writing dependency_links to ../../build/autonomous_tb3/autonomous_tb3.egg-info/dependency_links.txt
+[7.152s] writing entry points to ../../build/autonomous_tb3/autonomous_tb3.egg-info/entry_points.txt
+[7.153s] writing requirements to ../../build/autonomous_tb3/autonomous_tb3.egg-info/requires.txt
+[7.154s] writing top-level names to ../../build/autonomous_tb3/autonomous_tb3.egg-info/top_level.txt
+[7.155s] writing manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[7.166s] reading manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[7.172s] writing manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[7.173s] running build
+[7.175s] running build_py
+[7.176s] creating /home/an/ros2_ws/build/autonomous_tb3/build
+[7.177s] creating /home/an/ros2_ws/build/autonomous_tb3/build/lib
+[7.177s] creating /home/an/ros2_ws/build/autonomous_tb3/build/lib/autonomous_tb3
+[7.178s] copying autonomous_tb3/hotel_waiter_multi_button.py -> /home/an/ros2_ws/build/autonomous_tb3/build/lib/autonomous_tb3
+[7.179s] copying autonomous_tb3/__init__.py -> /home/an/ros2_ws/build/autonomous_tb3/build/lib/autonomous_tb3
+[7.180s] copying autonomous_tb3/occupancy_grid_pub.py -> /home/an/ros2_ws/build/autonomous_tb3/build/lib/autonomous_tb3
+[7.181s] copying autonomous_tb3/hotel_waiter_single_goal.py -> /home/an/ros2_ws/build/autonomous_tb3/build/lib/autonomous_tb3
+[7.181s] copying autonomous_tb3/spawn_entity.py -> /home/an/ros2_ws/build/autonomous_tb3/build/lib/autonomous_tb3
+[7.182s] copying autonomous_tb3/maze_solver.py -> /home/an/ros2_ws/build/autonomous_tb3/build/lib/autonomous_tb3
+[7.183s] running install
+[7.185s] running install_lib
+[7.207s] creating /home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[7.207s] copying /home/an/ros2_ws/build/autonomous_tb3/build/lib/autonomous_tb3/hotel_waiter_multi_button.py -> /home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[7.208s] copying /home/an/ros2_ws/build/autonomous_tb3/build/lib/autonomous_tb3/__init__.py -> /home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[7.209s] copying /home/an/ros2_ws/build/autonomous_tb3/build/lib/autonomous_tb3/occupancy_grid_pub.py -> /home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[7.213s] copying /home/an/ros2_ws/build/autonomous_tb3/build/lib/autonomous_tb3/hotel_waiter_single_goal.py -> /home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[7.213s] copying /home/an/ros2_ws/build/autonomous_tb3/build/lib/autonomous_tb3/spawn_entity.py -> /home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[7.214s] copying /home/an/ros2_ws/build/autonomous_tb3/build/lib/autonomous_tb3/maze_solver.py -> /home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[7.224s] byte-compiling /home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/hotel_waiter_multi_button.py to hotel_waiter_multi_button.cpython-310.pyc
+[7.225s] byte-compiling /home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/__init__.py to __init__.cpython-310.pyc
+[7.226s] byte-compiling /home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/occupancy_grid_pub.py to occupancy_grid_pub.cpython-310.pyc
+[7.227s] byte-compiling /home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/hotel_waiter_single_goal.py to hotel_waiter_single_goal.cpython-310.pyc
+[7.228s] byte-compiling /home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/spawn_entity.py to spawn_entity.cpython-310.pyc
+[7.232s] byte-compiling /home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/maze_solver.py to maze_solver.cpython-310.pyc
+[7.233s] running install_data
+[7.235s] creating /home/an/ros2_ws/install/autonomous_tb3/share/ament_index
+[7.238s] creating /home/an/ros2_ws/install/autonomous_tb3/share/ament_index/resource_index
+[7.240s] creating /home/an/ros2_ws/install/autonomous_tb3/share/ament_index/resource_index/packages
+[7.243s] copying resource/autonomous_tb3 -> /home/an/ros2_ws/install/autonomous_tb3/share/ament_index/resource_index/packages
+[7.246s] copying package.xml -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3
+[7.250s] creating /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/launch
+[7.254s] copying launch/hotel_waiter.launch.py -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/launch
+[7.258s] copying launch/tb3_world_navigation.launch.py -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/launch
+[7.263s] copying launch/mapping.launch.py -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/launch
+[7.270s] copying launch/maze_navigation.launch.py -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/launch
+[7.271s] creating /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[7.272s] copying config/maze.pgm -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[7.273s] copying config/tb3_world.pgm -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[7.274s] copying config/hotel_map.yaml -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[7.298s] copying config/maze.yaml -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[7.300s] copying config/tb3_cartographer.lua -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[7.301s] copying config/hotel_map.pgm -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[7.306s] copying config/tb3_world.yaml -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[7.309s] copying config/tb3_nav.rviz -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[7.311s] copying config/tb3_nav_params.yaml -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[7.320s] copying config/mapping.rviz -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[7.322s] creating /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/world
+[7.324s] creating /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/world/maze
+[7.326s] copying world/maze/model.sdf -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/world/maze
+[7.327s] copying world/maze/model.config -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/world/maze
+[7.339s] creating /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/models
+[7.344s] creating /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/models/actor
+[7.346s] copying models/actor/model.sdf -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/models/actor
+[7.348s] copying models/actor/model.config -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/models/actor
+[7.351s] creating /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/models/table
+[7.365s] copying models/table/model.sdf -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/models/table
+[7.372s] copying models/table/model.config -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/models/table
+[7.374s] copying models/table/model-1_4.sdf -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/models/table
+[7.389s] copying models/table/model-1_3.sdf -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/models/table
+[7.391s] copying models/table/model-1_2.sdf -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/models/table
+[7.393s] creating /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/models/beer
+[7.394s] copying models/beer/model.sdf -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/models/beer
+[7.396s] copying models/beer/model-1_4.sdf -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/models/beer
+[7.400s] copying models/beer/model.config -> /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/models/beer
+[7.402s] creating /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/models/beer/scripts
+[7.416s] creating /home/an/ros2_ws/install/autonomous_tb3/share/autonomous_tb3/models/beer/texutres
+[7.418s] running install_egg_info
+[7.434s] Copying ../../build/autonomous_tb3/autonomous_tb3.egg-info to /home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3-0.0.0-py3.10.egg-info
+[7.437s] running install_scripts
+[7.481s] Installing autonomous_waiter script to /home/an/ros2_ws/install/autonomous_tb3/lib/autonomous_tb3
+[7.482s] Installing autonomous_waiter_lite script to /home/an/ros2_ws/install/autonomous_tb3/lib/autonomous_tb3
+[7.484s] Installing maze_solver script to /home/an/ros2_ws/install/autonomous_tb3/lib/autonomous_tb3
+[7.485s] Installing occupancy_grid_pub script to /home/an/ros2_ws/install/autonomous_tb3/lib/autonomous_tb3
+[7.488s] Installing sdf_spawner script to /home/an/ros2_ws/install/autonomous_tb3/lib/autonomous_tb3
+[7.492s] writing list of installed files to '/home/an/ros2_ws/build/autonomous_tb3/install.log'
+[8.691s] Invoked command in '/home/an/ros2_ws/src/autonomous_tb3' returned '0': PYTHONPATH=/home/an/ros2_ws/build/autonomous_tb3/prefix_override:/home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomous_tb3 build --build-base /home/an/ros2_ws/build/autonomous_tb3/build install --record /home/an/ros2_ws/build/autonomous_tb3/install.log --single-version-externally-managed install_data

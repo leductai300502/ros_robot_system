@@ -1,0 +1,18 @@
+[3.521s] Invoking command in '/home/an/ros2_ws/src/vel_driver': PYTHONPATH=/home/an/ros2_ws/build/vel_driver/prefix_override:/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vel_driver build --build-base /home/an/ros2_ws/build/vel_driver/build install --record /home/an/ros2_ws/build/vel_driver/install.log --single-version-externally-managed install_data
+[4.445s] running egg_info
+[4.448s] writing ../../build/vel_driver/vel_driver.egg-info/PKG-INFO
+[4.449s] writing dependency_links to ../../build/vel_driver/vel_driver.egg-info/dependency_links.txt
+[4.449s] writing entry points to ../../build/vel_driver/vel_driver.egg-info/entry_points.txt
+[4.450s] writing requirements to ../../build/vel_driver/vel_driver.egg-info/requires.txt
+[4.451s] writing top-level names to ../../build/vel_driver/vel_driver.egg-info/top_level.txt
+[4.454s] reading manifest file '../../build/vel_driver/vel_driver.egg-info/SOURCES.txt'
+[4.458s] writing manifest file '../../build/vel_driver/vel_driver.egg-info/SOURCES.txt'
+[4.458s] running build
+[4.459s] running install
+[4.460s] running install_data
+[4.460s] running install_egg_info
+[4.469s] removing '/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages/vel_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[4.470s] Copying ../../build/vel_driver/vel_driver.egg-info to /home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages/vel_driver-0.0.0-py3.10.egg-info
+[4.475s] running install_scripts
+[4.551s] writing list of installed files to '/home/an/ros2_ws/build/vel_driver/install.log'
+[4.659s] Invoked command in '/home/an/ros2_ws/src/vel_driver' returned '0': PYTHONPATH=/home/an/ros2_ws/build/vel_driver/prefix_override:/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vel_driver build --build-base /home/an/ros2_ws/build/vel_driver/build install --record /home/an/ros2_ws/build/vel_driver/install.log --single-version-externally-managed install_data

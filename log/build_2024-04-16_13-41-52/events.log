@@ -1,0 +1,653 @@
+[0.000000] (-) TimerEvent: {}
+[0.001845] (autonomous_tb3) JobQueued: {'identifier': 'autonomous_tb3', 'dependencies': OrderedDict()}
+[0.002404] (diffdrive_esp32) JobQueued: {'identifier': 'diffdrive_esp32', 'dependencies': OrderedDict()}
+[0.002491] (ld08_driver) JobQueued: {'identifier': 'ld08_driver', 'dependencies': OrderedDict()}
+[0.002568] (self_driving) JobQueued: {'identifier': 'self_driving', 'dependencies': OrderedDict()}
+[0.002642] (test_pkg) JobQueued: {'identifier': 'test_pkg', 'dependencies': OrderedDict()}
+[0.002718] (turtlebot3_controller) JobQueued: {'identifier': 'turtlebot3_controller', 'dependencies': OrderedDict()}
+[0.002791] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.002864] (vel_driver) JobQueued: {'identifier': 'vel_driver', 'dependencies': OrderedDict()}
+[0.002937] (autonomous_tb3) JobStarted: {'identifier': 'autonomous_tb3'}
+[0.038287] (diffdrive_esp32) JobStarted: {'identifier': 'diffdrive_esp32'}
+[0.058295] (ld08_driver) JobStarted: {'identifier': 'ld08_driver'}
+[0.079059] (self_driving) JobStarted: {'identifier': 'self_driving'}
+[0.099002] (-) TimerEvent: {}
+[0.199772] (-) TimerEvent: {}
+[0.300478] (-) TimerEvent: {}
+[0.401242] (-) TimerEvent: {}
+[0.501893] (-) TimerEvent: {}
+[0.602547] (-) TimerEvent: {}
+[0.703187] (-) TimerEvent: {}
+[0.803803] (-) TimerEvent: {}
+[0.904504] (-) TimerEvent: {}
+[1.005169] (-) TimerEvent: {}
+[1.106311] (-) TimerEvent: {}
+[1.157999] (diffdrive_esp32) JobProgress: {'identifier': 'diffdrive_esp32', 'progress': 'cmake'}
+[1.161207] (diffdrive_esp32) JobProgress: {'identifier': 'diffdrive_esp32', 'progress': 'build'}
+[1.164206] (diffdrive_esp32) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/an/ros2_ws/build/diffdrive_esp32', '--', '-j4', '-l4'], 'cwd': '/home/an/ros2_ws/build/diffdrive_esp32', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.252 41822 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/ros2_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an/ros2_ws/src/ldlidar_ros2/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '21'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/ros2_ws/build/diffdrive_esp32'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.252 41822 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:/home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[1.177670] (ld08_driver) JobProgress: {'identifier': 'ld08_driver', 'progress': 'cmake'}
+[1.178589] (ld08_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/an/ros2_ws/src/ldlidar_ros2/src/ld08_driver', '-DCMAKE_INSTALL_PREFIX=/home/an/ros2_ws/install/ld08_driver'], 'cwd': '/home/an/ros2_ws/build/ld08_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.252 41822 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/ros2_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an/ros2_ws/src/ldlidar_ros2/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '21'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/ros2_ws/build/ld08_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.252 41822 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:/home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[1.206521] (-) TimerEvent: {}
+[1.307495] (-) TimerEvent: {}
+[1.408484] (-) TimerEvent: {}
+[1.427913] (diffdrive_esp32) StdoutLine: {'line': b'[100%] Built target diffdrive_esp32\n'}
+[1.508675] (-) TimerEvent: {}
+[1.609461] (-) TimerEvent: {}
+[1.710138] (-) TimerEvent: {}
+[1.810810] (-) TimerEvent: {}
+[1.852276] (ld08_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.910984] (-) TimerEvent: {}
+[2.011795] (-) TimerEvent: {}
+[2.110605] (ld08_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.111932] (-) TimerEvent: {}
+[2.153730] (ld08_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.212090] (-) TimerEvent: {}
+[2.313122] (-) TimerEvent: {}
+[2.414495] (-) TimerEvent: {}
+[2.445479] (diffdrive_esp32) CommandEnded: {'returncode': 0}
+[2.515067] (-) TimerEvent: {}
+[2.526867] (ld08_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.557150] (ld08_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.562725] (ld08_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.567351] (ld08_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.589685] (ld08_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.594230] (diffdrive_esp32) JobProgress: {'identifier': 'diffdrive_esp32', 'progress': 'install'}
+[2.615272] (-) TimerEvent: {}
+[2.635299] (diffdrive_esp32) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/an/ros2_ws/build/diffdrive_esp32'], 'cwd': '/home/an/ros2_ws/build/diffdrive_esp32', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.252 41822 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/ros2_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an/ros2_ws/src/ldlidar_ros2/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '21'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/ros2_ws/build/diffdrive_esp32'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.252 41822 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:/home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[2.673708] (diffdrive_esp32) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.674582] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/diffdrive_esp32.xml\n'}
+[2.675108] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32\n'}
+[2.675839] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32\n'}
+[2.676370] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/esp32_comms.hpp\n'}
+[2.676859] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/visibility_control.h\n'}
+[2.677662] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/wheel.hpp\n'}
+[2.678214] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/diffbot_system.hpp\n'}
+[2.679040] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/lib/libdiffdrive_esp32.so\n'}
+[2.680192] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/library_path.sh\n'}
+[2.681348] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/library_path.dsv\n'}
+[2.682501] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/ament_index/resource_index/package_run_dependencies/diffdrive_esp32\n'}
+[2.684117] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/ament_index/resource_index/parent_prefix_path/diffdrive_esp32\n'}
+[2.685558] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/ament_prefix_path.sh\n'}
+[2.690684] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/ament_prefix_path.dsv\n'}
+[2.692109] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/path.sh\n'}
+[2.693607] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/path.dsv\n'}
+[2.694411] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.bash\n'}
+[2.695102] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.sh\n'}
+[2.695947] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.zsh\n'}
+[2.696776] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.dsv\n'}
+[2.710031] (diffdrive_esp32) StdoutLine: {'line': b'-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.dsv\n'}
+[2.710556] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/ament_index/resource_index/packages/diffdrive_esp32\n'}
+[2.710967] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_esp32\n'}
+[2.711584] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/export_diffdrive_esp32Export.cmake\n'}
+[2.711987] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/export_diffdrive_esp32Export-noconfig.cmake\n'}
+[2.712399] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.712845] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.713832] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/diffdrive_esp32Config.cmake\n'}
+[2.715012] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/diffdrive_esp32Config-version.cmake\n'}
+[2.716059] (-) TimerEvent: {}
+[2.717768] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.xml\n'}
+[2.719284] (diffdrive_esp32) CommandEnded: {'returncode': 0}
+[2.816481] (-) TimerEvent: {}
+[2.929399] (-) TimerEvent: {}
+[2.977906] (diffdrive_esp32) JobEnded: {'identifier': 'diffdrive_esp32', 'rc': 0}
+[2.981554] (test_pkg) JobStarted: {'identifier': 'test_pkg'}
+[3.029998] (-) TimerEvent: {}
+[3.075345] (ld08_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.106346] (ld08_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.109430] (ld08_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.113159] (ld08_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.130209] (-) TimerEvent: {}
+[3.231757] (-) TimerEvent: {}
+[3.241073] (ld08_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.332104] (-) TimerEvent: {}
+[3.433835] (-) TimerEvent: {}
+[3.536825] (-) TimerEvent: {}
+[3.638529] (-) TimerEvent: {}
+[3.740391] (-) TimerEvent: {}
+[3.842290] (-) TimerEvent: {}
+[3.944013] (-) TimerEvent: {}
+[4.046270] (-) TimerEvent: {}
+[4.148128] (-) TimerEvent: {}
+[4.249815] (-) TimerEvent: {}
+[4.256402] (ld08_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.350026] (-) TimerEvent: {}
+[4.452114] (-) TimerEvent: {}
+[4.555935] (-) TimerEvent: {}
+[4.659598] (-) TimerEvent: {}
+[4.763055] (-) TimerEvent: {}
+[4.768026] (autonomous_tb3) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/autonomous_tb3', 'build', '--build-base', '/home/an/ros2_ws/build/autonomous_tb3/build', 'install', '--record', '/home/an/ros2_ws/build/autonomous_tb3/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/an/ros2_ws/src/autonomous_tb3', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'an', 'SSH_CLIENT': '192.168.171.252 41822 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/an/ros2_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/an', 'OLDPWD': '/home/an/ros2_ws/src/ldlidar_ros2/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/an/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'an', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '21', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/an/ros2_ws/build/autonomous_tb3', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.171.252 41822 192.168.171.151 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/an/ros2_ws/build/autonomous_tb3/prefix_override:/home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages:/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:/home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/diffdrive_esp32'}, 'shell': False}
+[4.783935] (self_driving) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/self_driving', 'build', '--build-base', '/home/an/ros2_ws/build/self_driving/build', 'install', '--record', '/home/an/ros2_ws/build/self_driving/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/an/ros2_ws/src/self_driving', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'an', 'SSH_CLIENT': '192.168.171.252 41822 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/an/ros2_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/an', 'OLDPWD': '/home/an/ros2_ws/src/ldlidar_ros2/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/an/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'an', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '21', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/an/ros2_ws/build/self_driving', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.171.252 41822 192.168.171.151 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/an/ros2_ws/build/self_driving/prefix_override:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:/home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/diffdrive_esp32'}, 'shell': False}
+[4.863273] (-) TimerEvent: {}
+[4.964416] (-) TimerEvent: {}
+[5.065328] (-) TimerEvent: {}
+[5.166163] (-) TimerEvent: {}
+[5.239196] (ld08_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.266415] (-) TimerEvent: {}
+[5.367950] (-) TimerEvent: {}
+[5.469720] (-) TimerEvent: {}
+[5.571574] (-) TimerEvent: {}
+[5.672962] (-) TimerEvent: {}
+[5.735788] (ld08_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.773162] (-) TimerEvent: {}
+[5.802587] (ld08_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.873492] (-) TimerEvent: {}
+[5.897558] (ld08_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.973683] (-) TimerEvent: {}
+[6.035745] (ld08_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.070262] (self_driving) StdoutLine: {'line': b'running egg_info\n'}
+[6.072956] (autonomous_tb3) StdoutLine: {'line': b'running egg_info\n'}
+[6.073797] (-) TimerEvent: {}
+[6.075648] (self_driving) StdoutLine: {'line': b'writing ../../build/self_driving/self_driving.egg-info/PKG-INFO\n'}
+[6.076740] (self_driving) StdoutLine: {'line': b'writing dependency_links to ../../build/self_driving/self_driving.egg-info/dependency_links.txt\n'}
+[6.077644] (self_driving) StdoutLine: {'line': b'writing entry points to ../../build/self_driving/self_driving.egg-info/entry_points.txt\n'}
+[6.078848] (autonomous_tb3) StdoutLine: {'line': b'writing ../../build/autonomous_tb3/autonomous_tb3.egg-info/PKG-INFO\n'}
+[6.079518] (self_driving) StdoutLine: {'line': b'writing requirements to ../../build/self_driving/self_driving.egg-info/requires.txt\n'}
+[6.080042] (self_driving) StdoutLine: {'line': b'writing top-level names to ../../build/self_driving/self_driving.egg-info/top_level.txt\n'}
+[6.081435] (autonomous_tb3) StdoutLine: {'line': b'writing dependency_links to ../../build/autonomous_tb3/autonomous_tb3.egg-info/dependency_links.txt\n'}
+[6.083782] (autonomous_tb3) StdoutLine: {'line': b'writing entry points to ../../build/autonomous_tb3/autonomous_tb3.egg-info/entry_points.txt\n'}
+[6.085965] (autonomous_tb3) StdoutLine: {'line': b'writing requirements to ../../build/autonomous_tb3/autonomous_tb3.egg-info/requires.txt\n'}
+[6.087766] (autonomous_tb3) StdoutLine: {'line': b'writing top-level names to ../../build/autonomous_tb3/autonomous_tb3.egg-info/top_level.txt\n'}
+[6.089991] (self_driving) StdoutLine: {'line': b"reading manifest file '../../build/self_driving/self_driving.egg-info/SOURCES.txt'\n"}
+[6.092167] (self_driving) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.096224] (self_driving) StdoutLine: {'line': b"writing manifest file '../../build/self_driving/self_driving.egg-info/SOURCES.txt'\n"}
+[6.098254] (self_driving) StdoutLine: {'line': b'running build\n'}
+[6.099284] (self_driving) StdoutLine: {'line': b'running build_py\n'}
+[6.101350] (autonomous_tb3) StdoutLine: {'line': b"reading manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'\n"}
+[6.107829] (autonomous_tb3) StdoutLine: {'line': b"writing manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'\n"}
+[6.109735] (autonomous_tb3) StdoutLine: {'line': b'running build\n'}
+[6.110949] (autonomous_tb3) StdoutLine: {'line': b'running build_py\n'}
+[6.112545] (self_driving) StdoutLine: {'line': b'running install\n'}
+[6.114215] (self_driving) StdoutLine: {'line': b'running install_lib\n'}
+[6.120768] (autonomous_tb3) StdoutLine: {'line': b'running install\n'}
+[6.123536] (autonomous_tb3) StdoutLine: {'line': b'running install_lib\n'}
+[6.134262] (autonomous_tb3) StdoutLine: {'line': b'running install_data\n'}
+[6.142506] (autonomous_tb3) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.152380] (autonomous_tb3) StdoutLine: {'line': b"removing '/home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.154756] (self_driving) StdoutLine: {'line': b'running install_data\n'}
+[6.155624] (self_driving) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.157378] (autonomous_tb3) StdoutLine: {'line': b'Copying ../../build/autonomous_tb3/autonomous_tb3.egg-info to /home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3-0.0.0-py3.10.egg-info\n'}
+[6.164821] (self_driving) StdoutLine: {'line': b"removing '/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.167700] (autonomous_tb3) StdoutLine: {'line': b'running install_scripts\n'}
+[6.171135] (self_driving) StdoutLine: {'line': b'Copying ../../build/self_driving/self_driving.egg-info to /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving-0.0.0-py3.10.egg-info\n'}
+[6.174008] (-) TimerEvent: {}
+[6.180186] (self_driving) StdoutLine: {'line': b'running install_scripts\n'}
+[6.274226] (-) TimerEvent: {}
+[6.279646] (autonomous_tb3) StdoutLine: {'line': b'Installing autonomous_waiter script to /home/an/ros2_ws/install/autonomous_tb3/lib/autonomous_tb3\n'}
+[6.287665] (autonomous_tb3) StdoutLine: {'line': b'Installing autonomous_waiter_lite script to /home/an/ros2_ws/install/autonomous_tb3/lib/autonomous_tb3\n'}
+[6.288539] (autonomous_tb3) StdoutLine: {'line': b'Installing maze_solver script to /home/an/ros2_ws/install/autonomous_tb3/lib/autonomous_tb3\n'}
+[6.289516] (autonomous_tb3) StdoutLine: {'line': b'Installing occupancy_grid_pub script to /home/an/ros2_ws/install/autonomous_tb3/lib/autonomous_tb3\n'}
+[6.290413] (autonomous_tb3) StdoutLine: {'line': b'Installing sdf_spawner script to /home/an/ros2_ws/install/autonomous_tb3/lib/autonomous_tb3\n'}
+[6.292199] (autonomous_tb3) StdoutLine: {'line': b"writing list of installed files to '/home/an/ros2_ws/build/autonomous_tb3/install.log'\n"}
+[6.295658] (self_driving) StdoutLine: {'line': b'Installing cam_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving\n'}
+[6.299240] (self_driving) StdoutLine: {'line': b'Installing computer_vision_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving\n'}
+[6.302450] (self_driving) StdoutLine: {'line': b'Installing driving_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving\n'}
+[6.306220] (ld08_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.308477] (self_driving) StdoutLine: {'line': b'Installing recorder_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving\n'}
+[6.312417] (self_driving) StdoutLine: {'line': b'Installing vel_wheel_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving\n'}
+[6.321641] (self_driving) StdoutLine: {'line': b"writing list of installed files to '/home/an/ros2_ws/build/self_driving/install.log'\n"}
+[6.374604] (-) TimerEvent: {}
+[6.477439] (-) TimerEvent: {}
+[6.494128] (autonomous_tb3) CommandEnded: {'returncode': 0}
+[6.525527] (autonomous_tb3) JobEnded: {'identifier': 'autonomous_tb3', 'rc': 0}
+[6.528305] (turtlebot3_controller) JobStarted: {'identifier': 'turtlebot3_controller'}
+[6.552320] (self_driving) CommandEnded: {'returncode': 0}
+[6.577491] (-) TimerEvent: {}
+[6.586601] (self_driving) JobEnded: {'identifier': 'self_driving', 'rc': 0}
+[6.594514] (turtlebot3_description) JobStarted: {'identifier': 'turtlebot3_description'}
+[6.617980] (turtlebot3_controller) JobProgress: {'identifier': 'turtlebot3_controller', 'progress': 'cmake'}
+[6.622155] (turtlebot3_controller) JobProgress: {'identifier': 'turtlebot3_controller', 'progress': 'build'}
+[6.624623] (turtlebot3_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/an/ros2_ws/build/turtlebot3_controller', '--', '-j4', '-l4'], 'cwd': '/home/an/ros2_ws/build/turtlebot3_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.252 41822 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/ros2_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an/ros2_ws/src/ldlidar_ros2/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '21'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/ros2_ws/build/turtlebot3_controller'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.252 41822 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:/home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[6.639893] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'cmake'}
+[6.643144] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'build'}
+[6.644371] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/an/ros2_ws/build/turtlebot3_description', '--', '-j4', '-l4'], 'cwd': '/home/an/ros2_ws/build/turtlebot3_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.252 41822 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/ros2_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an/ros2_ws/src/ldlidar_ros2/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '21'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/ros2_ws/build/turtlebot3_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.252 41822 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:/home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[6.677709] (-) TimerEvent: {}
+[6.779213] (-) TimerEvent: {}
+[6.881761] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[6.883064] (-) TimerEvent: {}
+[6.965590] (test_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/test_pkg', 'build', '--build-base', '/home/an/ros2_ws/build/test_pkg/build', 'install', '--record', '/home/an/ros2_ws/build/test_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/an/ros2_ws/src/test_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'an', 'SSH_CLIENT': '192.168.171.252 41822 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/an/ros2_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/an', 'OLDPWD': '/home/an/ros2_ws/src/ldlidar_ros2/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/an/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'an', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '21', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/an/ros2_ws/build/test_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.171.252 41822 192.168.171.151 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/an/ros2_ws/build/test_pkg/prefix_override:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:/home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/diffdrive_esp32'}, 'shell': False}
+[6.983341] (-) TimerEvent: {}
+[7.010485] (turtlebot3_controller) StdoutLine: {'line': b'[ 33%] Built target odom_publisher\n'}
+[7.032261] (turtlebot3_controller) StdoutLine: {'line': b'[ 33%] Built target ament_cmake_python_copy_turtlebot3_controller\n'}
+[7.035383] (ld08_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.075445] (ld08_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.082497] (turtlebot3_controller) StdoutLine: {'line': b'[ 66%] Built target noisy_controller\n'}
+[7.083823] (-) TimerEvent: {}
+[7.093265] (turtlebot3_controller) StdoutLine: {'line': b'[100%] Built target simple_controller\n'}
+[7.151416] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'install'}
+[7.151696] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/an/ros2_ws/build/turtlebot3_description'], 'cwd': '/home/an/ros2_ws/build/turtlebot3_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.252 41822 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/ros2_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an/ros2_ws/src/ldlidar_ros2/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '21'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/ros2_ws/build/turtlebot3_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.252 41822 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:/home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[7.184067] (-) TimerEvent: {}
+[7.193882] (turtlebot3_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.194979] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes\n'}
+[7.196480] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/lidar_link.stl\n'}
+[7.197590] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/base_link.stl\n'}
+[7.198685] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/imu_link.stl\n'}
+[7.199780] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheel_right_link.stl\n'}
+[7.201019] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/caster_back_left_link.stl\n'}
+[7.202230] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/r200_link.dae\n'}
+[7.203342] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/caster_back_right_link.stl\n'}
+[7.204457] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/TB3-RPi-camera-mount.stl\n'}
+[7.205667] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheel_left_link.stl\n'}
+[7.206817] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/pi_cam_v3_link.stl\n'}
+[7.207831] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf\n'}
+[7.210229] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf.xacro\n'}
+[7.212162] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/gazebo_control.xacro\n'}
+[7.213603] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_ros2_control.xacro\n'}
+[7.214705] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.gazebo.xacro\n'}
+[7.215914] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.xacro\n'}
+[7.217407] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/launch\n'}
+[7.218052] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/launch/gzserver.launch.py\n'}
+[7.219305] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/launch/joystick_teleop.launch.py\n'}
+[7.221820] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/launch/display.launch.py\n'}
+[7.225014] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/launch/gazebo.launch.py\n'}
+[7.227561] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/rviz\n'}
+[7.230522] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/main.rviz\n'}
+[7.232927] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/display.rviz\n'}
+[7.233631] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/control.rviz\n'}
+[7.234131] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo_world\n'}
+[7.234639] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo_world/test_laser_world\n'}
+[7.235082] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo_world/test_maze\n'}
+[7.235513] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo_world/empty\n'}
+[7.235956] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo_world/small_maze\n'}
+[7.236342] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo_world/hanh_lang\n'}
+[7.236780] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo_world/empty_world\n'}
+[7.237328] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/models\n'}
+[7.237791] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/models/sun\n'}
+[7.238196] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/models/sun/model.sdf\n'}
+[7.238715] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/models/sun/model.config\n'}
+[7.239175] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/models/sun/model-1_4.sdf\n'}
+[7.239687] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/models/sun/model-1_3.sdf\n'}
+[7.240224] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/models/sun/model-1_2.sdf\n'}
+[7.247000] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/models/ground_plane\n'}
+[7.252043] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/models/ground_plane/model.sdf\n'}
+[7.254756] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/models/ground_plane/model.config\n'}
+[7.255206] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/models/ground_plane/model-1_4.sdf\n'}
+[7.255572] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/models/ground_plane/model-1_3.sdf\n'}
+[7.256034] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/models/ground_plane/model-1_2.sdf\n'}
+[7.256523] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description\n'}
+[7.256940] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description\n'}
+[7.257432] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh\n'}
+[7.258134] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv\n'}
+[7.258593] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh\n'}
+[7.259032] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv\n'}
+[7.259456] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash\n'}
+[7.259852] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh\n'}
+[7.260255] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh\n'}
+[7.260707] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv\n'}
+[7.261271] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv\n'}
+[7.261879] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description\n'}
+[7.262552] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake\n'}
+[7.263187] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake\n'}
+[7.263706] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml\n'}
+[7.277413] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[7.284747] (-) TimerEvent: {}
+[7.385714] (-) TimerEvent: {}
+[7.476347] (turtlebot3_description) JobEnded: {'identifier': 'turtlebot3_description', 'rc': 0}
+[7.479759] (vel_driver) JobStarted: {'identifier': 'vel_driver'}
+[7.485973] (-) TimerEvent: {}
+[7.586803] (-) TimerEvent: {}
+[7.687752] (-) TimerEvent: {}
+[7.788672] (-) TimerEvent: {}
+[7.800818] (ld08_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.888908] (-) TimerEvent: {}
+[7.989996] (-) TimerEvent: {}
+[7.996079] (ld08_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.090186] (-) TimerEvent: {}
+[8.191089] (-) TimerEvent: {}
+[8.291931] (-) TimerEvent: {}
+[8.334271] (ld08_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.357396] (test_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[8.360371] (test_pkg) StdoutLine: {'line': b'writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO\n'}
+[8.361507] (test_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt\n'}
+[8.362507] (test_pkg) StdoutLine: {'line': b'writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt\n'}
+[8.363326] (test_pkg) StdoutLine: {'line': b'writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt\n'}
+[8.364089] (test_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt\n'}
+[8.373300] (test_pkg) StdoutLine: {'line': b"reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'\n"}
+[8.377434] (test_pkg) StdoutLine: {'line': b"writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'\n"}
+[8.378324] (test_pkg) StdoutLine: {'line': b'running build\n'}
+[8.378856] (test_pkg) StdoutLine: {'line': b'running build_py\n'}
+[8.379989] (test_pkg) StdoutLine: {'line': b'running install\n'}
+[8.381634] (test_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[8.387370] (test_pkg) StdoutLine: {'line': b'running install_data\n'}
+[8.388399] (test_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.392134] (-) TimerEvent: {}
+[8.396607] (test_pkg) StdoutLine: {'line': b"removing '/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.398636] (test_pkg) StdoutLine: {'line': b'Copying ../../build/test_pkg/test_pkg.egg-info to /home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info\n'}
+[8.405972] (test_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[8.434179] (turtlebot3_controller) StdoutLine: {'line': b'running egg_info\n'}
+[8.437337] (turtlebot3_controller) StdoutLine: {'line': b'writing turtlebot3_controller.egg-info/PKG-INFO\n'}
+[8.438616] (turtlebot3_controller) StdoutLine: {'line': b'writing dependency_links to turtlebot3_controller.egg-info/dependency_links.txt\n'}
+[8.439996] (turtlebot3_controller) StdoutLine: {'line': b'writing top-level names to turtlebot3_controller.egg-info/top_level.txt\n'}
+[8.451437] (turtlebot3_controller) StdoutLine: {'line': b"reading manifest file 'turtlebot3_controller.egg-info/SOURCES.txt'\n"}
+[8.454571] (turtlebot3_controller) StdoutLine: {'line': b"writing manifest file 'turtlebot3_controller.egg-info/SOURCES.txt'\n"}
+[8.486436] (ld08_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.492472] (-) TimerEvent: {}
+[8.528563] (test_pkg) StdoutLine: {'line': b'Installing test_motor script to /home/an/ros2_ws/install/test_pkg/lib/test_pkg\n'}
+[8.531319] (test_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/an/ros2_ws/build/test_pkg/install.log'\n"}
+[8.592816] (-) TimerEvent: {}
+[8.649165] (turtlebot3_controller) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_turtlebot3_controller_egg\n'}
+[8.693098] (-) TimerEvent: {}
+[8.794874] (-) TimerEvent: {}
+[8.895681] (-) TimerEvent: {}
+[8.908863] (ld08_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.910898] (ld08_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.995978] (-) TimerEvent: {}
+[9.051147] (test_pkg) CommandEnded: {'returncode': 0}
+[9.081930] (test_pkg) JobEnded: {'identifier': 'test_pkg', 'rc': 0}
+[9.088322] (turtlebot3_controller) CommandEnded: {'returncode': 0}
+[9.096986] (-) TimerEvent: {}
+[9.197843] (-) TimerEvent: {}
+[9.263324] (turtlebot3_controller) JobProgress: {'identifier': 'turtlebot3_controller', 'progress': 'install'}
+[9.264788] (turtlebot3_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/an/ros2_ws/build/turtlebot3_controller'], 'cwd': '/home/an/ros2_ws/build/turtlebot3_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.252 41822 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/ros2_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an/ros2_ws/src/ldlidar_ros2/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '21'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/ros2_ws/build/turtlebot3_controller'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.252 41822 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:/home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[9.298056] (-) TimerEvent: {}
+[9.307379] (turtlebot3_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.308514] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/pythonpath.sh\n'}
+[9.309625] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/pythonpath.dsv\n'}
+[9.310242] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller-0.0.0-py3.10.egg-info\n'}
+[9.311037] (ld08_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.311579] (turtlebot3_controller) StdoutLine: {'line': b'-- Installing: /home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.312009] (turtlebot3_controller) StdoutLine: {'line': b'-- Installing: /home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.312827] (turtlebot3_controller) StdoutLine: {'line': b'-- Installing: /home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.313662] (ld08_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.314490] (turtlebot3_controller) StdoutLine: {'line': b'-- Installing: /home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.315684] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller\n'}
+[9.316472] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller/__init__.py\n'}
+[9.316932] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller/simple_controller.py\n'}
+[9.398217] (-) TimerEvent: {}
+[9.482580] (turtlebot3_controller) StdoutLine: {'line': b"Listing '/home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller'...\n"}
+[9.498469] (-) TimerEvent: {}
+[9.511423] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/include/include\n'}
+[9.512319] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/include/include/turtlebot3_controller\n'}
+[9.512883] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/include/include/turtlebot3_controller/noisy_controller.hpp\n'}
+[9.513682] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/include/include/turtlebot3_controller/simple_controller.hpp\n'}
+[9.514201] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/include/include/turtlebot3_controller/odom_publisher.hpp\n'}
+[9.515041] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/lib/turtlebot3_controller/odom_publisher\n'}
+[9.517561] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/lib/turtlebot3_controller/simple_controller\n'}
+[9.520033] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/lib/turtlebot3_controller/noisy_controller\n'}
+[9.521498] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/config\n'}
+[9.522560] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/config/diff_drive_controllers.yaml\n'}
+[9.523609] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch\n'}
+[9.524595] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch/controller.launch.py\n'}
+[9.525540] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch/diff_drive_controller.launch.py\n'}
+[9.526738] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch/launch_robot_controller.launch.py\n'}
+[9.527914] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/lib/turtlebot3_controller/simple_controller.py\n'}
+[9.528604] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/ament_index/resource_index/package_run_dependencies/turtlebot3_controller\n'}
+[9.529676] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/ament_index/resource_index/parent_prefix_path/turtlebot3_controller\n'}
+[9.530424] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/ament_prefix_path.sh\n'}
+[9.531256] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/ament_prefix_path.dsv\n'}
+[9.532024] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/path.sh\n'}
+[9.533087] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/path.dsv\n'}
+[9.533687] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/local_setup.bash\n'}
+[9.534267] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/local_setup.sh\n'}
+[9.535423] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/local_setup.zsh\n'}
+[9.536818] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/local_setup.dsv\n'}
+[9.538962] (turtlebot3_controller) StdoutLine: {'line': b'-- Installing: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.dsv\n'}
+[9.552681] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/ament_index/resource_index/packages/turtlebot3_controller\n'}
+[9.553098] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/cmake/turtlebot3_controllerConfig.cmake\n'}
+[9.553603] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/cmake/turtlebot3_controllerConfig-version.cmake\n'}
+[9.553951] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.xml\n'}
+[9.554438] (turtlebot3_controller) CommandEnded: {'returncode': 0}
+[9.598710] (-) TimerEvent: {}
+[9.700646] (-) TimerEvent: {}
+[9.782699] (turtlebot3_controller) JobEnded: {'identifier': 'turtlebot3_controller', 'rc': 0}
+[9.800799] (-) TimerEvent: {}
+[9.901502] (-) TimerEvent: {}
+[10.002158] (-) TimerEvent: {}
+[10.102880] (-) TimerEvent: {}
+[10.171567] (ld08_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[10.203024] (-) TimerEvent: {}
+[10.303746] (-) TimerEvent: {}
+[10.404400] (-) TimerEvent: {}
+[10.505080] (-) TimerEvent: {}
+[10.606020] (-) TimerEvent: {}
+[10.707409] (-) TimerEvent: {}
+[10.744816] (vel_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/vel_driver', 'build', '--build-base', '/home/an/ros2_ws/build/vel_driver/build', 'install', '--record', '/home/an/ros2_ws/build/vel_driver/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/an/ros2_ws/src/vel_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'an', 'SSH_CLIENT': '192.168.171.252 41822 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/an/ros2_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/an', 'OLDPWD': '/home/an/ros2_ws/src/ldlidar_ros2/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/an/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'an', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '21', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/an/ros2_ws/build/vel_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.171.252 41822 192.168.171.151 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/an/ros2_ws/build/vel_driver/prefix_override:/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:/home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/diffdrive_esp32'}, 'shell': False}
+[10.807583] (-) TimerEvent: {}
+[10.845483] (ld08_driver) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system \n'}
+[10.874200] (ld08_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.907744] (-) TimerEvent: {}
+[11.008450] (-) TimerEvent: {}
+[11.109305] (-) TimerEvent: {}
+[11.209948] (-) TimerEvent: {}
+[11.225912] (ld08_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.285609] (ld08_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[11.292633] (ld08_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/an/ros2_ws/build/ld08_driver\n'}
+[11.310294] (-) TimerEvent: {}
+[11.325495] (ld08_driver) CommandEnded: {'returncode': 0}
+[11.327356] (ld08_driver) JobProgress: {'identifier': 'ld08_driver', 'progress': 'build'}
+[11.328414] (ld08_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/an/ros2_ws/build/ld08_driver', '--', '-j4', '-l4'], 'cwd': '/home/an/ros2_ws/build/ld08_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.252 41822 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/ros2_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an/ros2_ws/src/ldlidar_ros2/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '21'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/ros2_ws/build/ld08_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.252 41822 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:/home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[11.410429] (-) TimerEvent: {}
+[11.511166] (-) TimerEvent: {}
+[11.535145] (ld08_driver) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/cmd_interface_linux.cpp.o\x1b[0m\n'}
+[11.537532] (ld08_driver) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/lipkg.cpp.o\x1b[0m\n'}
+[11.546380] (ld08_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/main.cpp.o\x1b[0m\n'}
+[11.566025] (ld08_driver) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/slbf.cpp.o\x1b[0m\n'}
+[11.611420] (-) TimerEvent: {}
+[11.712442] (-) TimerEvent: {}
+[11.813196] (-) TimerEvent: {}
+[11.913932] (-) TimerEvent: {}
+[11.940394] (vel_driver) StdoutLine: {'line': b'running egg_info\n'}
+[11.944720] (vel_driver) StdoutLine: {'line': b'writing ../../build/vel_driver/vel_driver.egg-info/PKG-INFO\n'}
+[11.946741] (vel_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/vel_driver/vel_driver.egg-info/dependency_links.txt\n'}
+[11.948815] (vel_driver) StdoutLine: {'line': b'writing entry points to ../../build/vel_driver/vel_driver.egg-info/entry_points.txt\n'}
+[11.950854] (vel_driver) StdoutLine: {'line': b'writing requirements to ../../build/vel_driver/vel_driver.egg-info/requires.txt\n'}
+[11.952474] (vel_driver) StdoutLine: {'line': b'writing top-level names to ../../build/vel_driver/vel_driver.egg-info/top_level.txt\n'}
+[11.958113] (vel_driver) StdoutLine: {'line': b"reading manifest file '../../build/vel_driver/vel_driver.egg-info/SOURCES.txt'\n"}
+[11.962964] (vel_driver) StdoutLine: {'line': b"writing manifest file '../../build/vel_driver/vel_driver.egg-info/SOURCES.txt'\n"}
+[11.964391] (vel_driver) StdoutLine: {'line': b'running build\n'}
+[11.965117] (vel_driver) StdoutLine: {'line': b'running install\n'}
+[11.967963] (vel_driver) StdoutLine: {'line': b'running install_data\n'}
+[11.969627] (vel_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.979700] (vel_driver) StdoutLine: {'line': b"removing '/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages/vel_driver-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.982364] (vel_driver) StdoutLine: {'line': b'Copying ../../build/vel_driver/vel_driver.egg-info to /home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages/vel_driver-0.0.0-py3.10.egg-info\n'}
+[11.990252] (vel_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[12.014147] (-) TimerEvent: {}
+[12.080982] (vel_driver) StdoutLine: {'line': b'Installing serial_motor_driver script to /home/an/ros2_ws/install/vel_driver/lib/vel_driver\n'}
+[12.082763] (vel_driver) StdoutLine: {'line': b'Installing test_drive script to /home/an/ros2_ws/install/vel_driver/lib/vel_driver\n'}
+[12.084424] (vel_driver) StdoutLine: {'line': b"writing list of installed files to '/home/an/ros2_ws/build/vel_driver/install.log'\n"}
+[12.114357] (-) TimerEvent: {}
+[12.213952] (vel_driver) CommandEnded: {'returncode': 0}
+[12.215414] (-) TimerEvent: {}
+[12.240075] (vel_driver) JobEnded: {'identifier': 'vel_driver', 'rc': 0}
+[12.315644] (-) TimerEvent: {}
+[12.363343] (ld08_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/an/ros2_ws/src/ldlidar_ros2/src/ld08_driver/src/cmd_interface_linux.cpp:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Klibudev.h: No such file or directory\n'}
+[12.364290] (ld08_driver) StderrLine: {'line': b'   19 | #include \x1b[01;31m\x1b[K<libudev.h>\x1b[m\x1b[K\n'}
+[12.364963] (ld08_driver) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.365709] (ld08_driver) StderrLine: {'line': b'compilation terminated.\n'}
+[12.374916] (ld08_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ld08_driver.dir/build.make:76: CMakeFiles/ld08_driver.dir/src/cmd_interface_linux.cpp.o] Error 1\n'}
+[12.375821] (ld08_driver) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[12.415939] (-) TimerEvent: {}
+[12.518102] (-) TimerEvent: {}
+[12.619962] (-) TimerEvent: {}
+[12.721405] (-) TimerEvent: {}
+[12.822716] (-) TimerEvent: {}
+[12.924183] (-) TimerEvent: {}
+[13.025570] (-) TimerEvent: {}
+[13.126998] (-) TimerEvent: {}
+[13.228447] (-) TimerEvent: {}
+[13.329934] (-) TimerEvent: {}
+[13.431876] (-) TimerEvent: {}
+[13.534106] (-) TimerEvent: {}
+[13.636352] (-) TimerEvent: {}
+[13.738371] (-) TimerEvent: {}
+[13.839662] (-) TimerEvent: {}
+[13.940523] (-) TimerEvent: {}
+[14.041424] (-) TimerEvent: {}
+[14.142271] (-) TimerEvent: {}
+[14.243257] (-) TimerEvent: {}
+[14.344350] (-) TimerEvent: {}
+[14.446336] (-) TimerEvent: {}
+[14.548250] (-) TimerEvent: {}
+[14.650338] (-) TimerEvent: {}
+[14.752595] (-) TimerEvent: {}
+[14.855695] (-) TimerEvent: {}
+[14.958177] (-) TimerEvent: {}
+[15.060426] (-) TimerEvent: {}
+[15.162691] (-) TimerEvent: {}
+[15.264830] (-) TimerEvent: {}
+[15.367260] (-) TimerEvent: {}
+[15.469729] (-) TimerEvent: {}
+[15.572168] (-) TimerEvent: {}
+[15.674222] (-) TimerEvent: {}
+[15.776348] (-) TimerEvent: {}
+[15.878923] (-) TimerEvent: {}
+[15.981497] (-) TimerEvent: {}
+[16.083858] (-) TimerEvent: {}
+[16.186345] (-) TimerEvent: {}
+[16.288413] (-) TimerEvent: {}
+[16.390609] (-) TimerEvent: {}
+[16.492541] (-) TimerEvent: {}
+[16.594570] (-) TimerEvent: {}
+[16.696971] (-) TimerEvent: {}
+[16.799157] (-) TimerEvent: {}
+[16.901482] (-) TimerEvent: {}
+[17.003833] (-) TimerEvent: {}
+[17.106551] (-) TimerEvent: {}
+[17.208839] (-) TimerEvent: {}
+[17.311012] (-) TimerEvent: {}
+[17.412996] (-) TimerEvent: {}
+[17.515033] (-) TimerEvent: {}
+[17.616953] (-) TimerEvent: {}
+[17.719073] (-) TimerEvent: {}
+[17.821069] (-) TimerEvent: {}
+[17.923107] (-) TimerEvent: {}
+[18.025303] (-) TimerEvent: {}
+[18.127537] (-) TimerEvent: {}
+[18.229583] (-) TimerEvent: {}
+[18.331324] (-) TimerEvent: {}
+[18.433123] (-) TimerEvent: {}
+[18.534987] (-) TimerEvent: {}
+[18.637055] (-) TimerEvent: {}
+[18.738808] (-) TimerEvent: {}
+[18.840561] (-) TimerEvent: {}
+[18.941465] (-) TimerEvent: {}
+[19.042452] (-) TimerEvent: {}
+[19.143419] (-) TimerEvent: {}
+[19.244400] (-) TimerEvent: {}
+[19.345395] (-) TimerEvent: {}
+[19.447134] (-) TimerEvent: {}
+[19.549395] (-) TimerEvent: {}
+[19.651427] (-) TimerEvent: {}
+[19.753582] (-) TimerEvent: {}
+[19.855620] (-) TimerEvent: {}
+[19.957781] (-) TimerEvent: {}
+[20.059944] (-) TimerEvent: {}
+[20.162093] (-) TimerEvent: {}
+[20.264116] (-) TimerEvent: {}
+[20.366188] (-) TimerEvent: {}
+[20.468171] (-) TimerEvent: {}
+[20.570170] (-) TimerEvent: {}
+[20.672170] (-) TimerEvent: {}
+[20.774156] (-) TimerEvent: {}
+[20.876153] (-) TimerEvent: {}
+[20.978219] (-) TimerEvent: {}
+[21.080584] (-) TimerEvent: {}
+[21.182642] (-) TimerEvent: {}
+[21.284654] (-) TimerEvent: {}
+[21.386702] (-) TimerEvent: {}
+[21.488760] (-) TimerEvent: {}
+[21.590869] (-) TimerEvent: {}
+[21.693393] (-) TimerEvent: {}
+[21.795657] (-) TimerEvent: {}
+[21.897675] (-) TimerEvent: {}
+[21.999661] (-) TimerEvent: {}
+[22.102316] (-) TimerEvent: {}
+[22.204483] (-) TimerEvent: {}
+[22.306695] (-) TimerEvent: {}
+[22.409033] (-) TimerEvent: {}
+[22.511705] (-) TimerEvent: {}
+[22.614015] (-) TimerEvent: {}
+[22.717768] (-) TimerEvent: {}
+[22.820930] (-) TimerEvent: {}
+[22.923186] (-) TimerEvent: {}
+[23.026220] (-) TimerEvent: {}
+[23.128781] (-) TimerEvent: {}
+[23.230994] (-) TimerEvent: {}
+[23.332771] (-) TimerEvent: {}
+[23.434722] (-) TimerEvent: {}
+[23.536766] (-) TimerEvent: {}
+[23.638925] (-) TimerEvent: {}
+[23.741065] (-) TimerEvent: {}
+[23.844441] (-) TimerEvent: {}
+[23.946427] (-) TimerEvent: {}
+[24.048529] (-) TimerEvent: {}
+[24.150572] (-) TimerEvent: {}
+[24.252579] (-) TimerEvent: {}
+[24.354588] (-) TimerEvent: {}
+[24.456663] (-) TimerEvent: {}
+[24.558664] (-) TimerEvent: {}
+[24.660719] (-) TimerEvent: {}
+[24.762798] (-) TimerEvent: {}
+[24.864860] (-) TimerEvent: {}
+[24.966963] (-) TimerEvent: {}
+[25.069553] (-) TimerEvent: {}
+[25.171542] (-) TimerEvent: {}
+[25.273664] (-) TimerEvent: {}
+[25.375713] (-) TimerEvent: {}
+[25.477709] (-) TimerEvent: {}
+[25.579707] (-) TimerEvent: {}
+[25.681783] (-) TimerEvent: {}
+[25.783575] (-) TimerEvent: {}
+[25.885620] (-) TimerEvent: {}
+[25.987619] (-) TimerEvent: {}
+[26.089822] (-) TimerEvent: {}
+[26.191987] (-) TimerEvent: {}
+[26.294094] (-) TimerEvent: {}
+[26.396286] (-) TimerEvent: {}
+[26.498680] (-) TimerEvent: {}
+[26.600531] (-) TimerEvent: {}
+[26.701932] (-) TimerEvent: {}
+[26.802718] (-) TimerEvent: {}
+[26.903456] (-) TimerEvent: {}
+[27.004170] (-) TimerEvent: {}
+[27.104894] (-) TimerEvent: {}
+[27.205649] (-) TimerEvent: {}
+[27.306369] (-) TimerEvent: {}
+[27.407094] (-) TimerEvent: {}
+[27.507838] (-) TimerEvent: {}
+[27.608508] (-) TimerEvent: {}
+[27.709219] (-) TimerEvent: {}
+[27.809907] (-) TimerEvent: {}
+[27.910596] (-) TimerEvent: {}
+[28.011287] (-) TimerEvent: {}
+[28.111994] (-) TimerEvent: {}
+[28.222119] (-) TimerEvent: {}
+[28.322815] (-) TimerEvent: {}
+[28.423504] (-) TimerEvent: {}
+[28.524205] (-) TimerEvent: {}
+[28.624890] (-) TimerEvent: {}
+[28.725599] (-) TimerEvent: {}
+[28.826282] (-) TimerEvent: {}
+[28.927018] (-) TimerEvent: {}
+[29.027740] (-) TimerEvent: {}
+[29.128409] (-) TimerEvent: {}
+[29.229091] (-) TimerEvent: {}
+[29.329773] (-) TimerEvent: {}
+[29.430441] (-) TimerEvent: {}
+[29.531130] (-) TimerEvent: {}
+[29.631801] (-) TimerEvent: {}
+[29.732479] (-) TimerEvent: {}
+[29.833158] (-) TimerEvent: {}
+[29.933888] (-) TimerEvent: {}
+[30.034554] (-) TimerEvent: {}
+[30.135228] (-) TimerEvent: {}
+[30.235877] (-) TimerEvent: {}
+[30.336545] (-) TimerEvent: {}
+[30.437248] (-) TimerEvent: {}
+[30.537903] (-) TimerEvent: {}
+[30.638584] (-) TimerEvent: {}
+[30.739538] (-) TimerEvent: {}
+[30.840697] (-) TimerEvent: {}
+[30.941452] (-) TimerEvent: {}
+[31.042147] (-) TimerEvent: {}
+[31.142835] (-) TimerEvent: {}
+[31.243550] (-) TimerEvent: {}
+[31.344264] (-) TimerEvent: {}
+[31.444984] (-) TimerEvent: {}
+[31.545716] (-) TimerEvent: {}
+[31.573108] (ld08_driver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ld08_driver.dir/all] Error 2\n'}
+[31.574030] (ld08_driver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[31.580342] (ld08_driver) CommandEnded: {'returncode': 2}
+[31.645924] (-) TimerEvent: {}
+[31.747186] (-) TimerEvent: {}
+[31.800612] (ld08_driver) JobEnded: {'identifier': 'ld08_driver', 'rc': 2}
+[31.803947] (-) EventReactorShutdown: {}

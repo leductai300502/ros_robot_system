@@ -1,0 +1,2 @@
+Invoking command in '/home/an/ros2_ws/build/diffdrive_esp32': CMAKE_PREFIX_PATH=/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/ros2_ws/src/diffdrive_esp32 -DCMAKE_INSTALL_PREFIX=/home/an/ros2_ws/install/diffdrive_esp32
+Invoked command in '/home/an/ros2_ws/build/diffdrive_esp32' returned '1': CMAKE_PREFIX_PATH=/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/ros2_ws/src/diffdrive_esp32 -DCMAKE_INSTALL_PREFIX=/home/an/ros2_ws/install/diffdrive_esp32

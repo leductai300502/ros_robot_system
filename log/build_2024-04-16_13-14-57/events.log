@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.001612] (-) JobUnselected: {'identifier': 'diffdrive_esp32'}
+[0.001730] (-) JobUnselected: {'identifier': 'self_driving'}
+[0.002255] (-) JobUnselected: {'identifier': 'turtlebot3_controller'}
+[0.002340] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.002418] (-) JobUnselected: {'identifier': 'vel_driver'}
+[0.002499] (test_pkg) JobQueued: {'identifier': 'test_pkg', 'dependencies': OrderedDict()}
+[0.002927] (test_pkg) JobStarted: {'identifier': 'test_pkg'}
+[0.099143] (-) TimerEvent: {}
+[0.199821] (-) TimerEvent: {}
+[0.300540] (-) TimerEvent: {}
+[0.401147] (-) TimerEvent: {}
+[0.501747] (-) TimerEvent: {}
+[0.602321] (-) TimerEvent: {}
+[0.702921] (-) TimerEvent: {}
+[0.803498] (-) TimerEvent: {}
+[0.904142] (-) TimerEvent: {}
+[1.004918] (-) TimerEvent: {}
+[1.106054] (-) TimerEvent: {}
+[1.206798] (-) TimerEvent: {}
+[1.307414] (-) TimerEvent: {}
+[1.408113] (-) TimerEvent: {}
+[1.508718] (-) TimerEvent: {}
+[1.609300] (-) TimerEvent: {}
+[1.709888] (-) TimerEvent: {}
+[1.810460] (-) TimerEvent: {}
+[1.911090] (-) TimerEvent: {}
+[2.011703] (-) TimerEvent: {}
+[2.112370] (-) TimerEvent: {}
+[2.212971] (-) TimerEvent: {}
+[2.313566] (-) TimerEvent: {}
+[2.414214] (-) TimerEvent: {}
+[2.496880] (test_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/test_pkg', 'build', '--build-base', '/home/an/ros2_ws/build/test_pkg/build', 'install', '--record', '/home/an/ros2_ws/build/test_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/an/ros2_ws/src/test_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'an', 'SSH_CLIENT': '192.168.171.203 36504 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/an/ros2_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/an', 'OLDPWD': '/home/an/ros2_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/an/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'an', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '18', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/an/ros2_ws/build/test_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.171.203 36504 192.168.171.151 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/an/ros2_ws/build/test_pkg/prefix_override:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:/home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/an/ros2_ws/install/turtlebot3_description:/home/an/ros2_ws/install/turtlebot3_controller:/home/an/ros2_ws/install/diffdrive_esp32'}, 'shell': False}
+[2.514414] (-) TimerEvent: {}
+[2.615156] (-) TimerEvent: {}
+[2.715768] (-) TimerEvent: {}
+[2.816464] (-) TimerEvent: {}
+[2.917159] (-) TimerEvent: {}
+[3.017754] (-) TimerEvent: {}
+[3.118380] (-) TimerEvent: {}
+[3.218974] (-) TimerEvent: {}
+[3.319583] (-) TimerEvent: {}
+[3.420217] (-) TimerEvent: {}
+[3.445758] (test_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.448297] (test_pkg) StdoutLine: {'line': b'writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO\n'}
+[3.449327] (test_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt\n'}
+[3.450127] (test_pkg) StdoutLine: {'line': b'writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt\n'}
+[3.450889] (test_pkg) StdoutLine: {'line': b'writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt\n'}
+[3.451424] (test_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt\n'}
+[3.459111] (test_pkg) StdoutLine: {'line': b"reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'\n"}
+[3.462496] (test_pkg) StdoutLine: {'line': b"writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'\n"}
+[3.463084] (test_pkg) StdoutLine: {'line': b'running build\n'}
+[3.463529] (test_pkg) StdoutLine: {'line': b'running build_py\n'}
+[3.464109] (test_pkg) StdoutLine: {'line': b'copying test_pkg/serial_motor_driver.py -> /home/an/ros2_ws/build/test_pkg/build/lib/test_pkg\n'}
+[3.465321] (test_pkg) StdoutLine: {'line': b'running install\n'}
+[3.466538] (test_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[3.469644] (test_pkg) StdoutLine: {'line': b'copying /home/an/ros2_ws/build/test_pkg/build/lib/test_pkg/serial_motor_driver.py -> /home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg\n'}
+[3.472286] (test_pkg) StdoutLine: {'line': b'byte-compiling /home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/serial_motor_driver.py to serial_motor_driver.cpython-310.pyc\n'}
+[3.476211] (test_pkg) StdoutLine: {'line': b'running install_data\n'}
+[3.476871] (test_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.483136] (test_pkg) StdoutLine: {'line': b"removing '/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.484774] (test_pkg) StdoutLine: {'line': b'Copying ../../build/test_pkg/test_pkg.egg-info to /home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info\n'}
+[3.489679] (test_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[3.520350] (-) TimerEvent: {}
+[3.566379] (test_pkg) StdoutLine: {'line': b'Installing test_motor script to /home/an/ros2_ws/install/test_pkg/lib/test_pkg\n'}
+[3.567907] (test_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/an/ros2_ws/build/test_pkg/install.log'\n"}
+[3.620589] (-) TimerEvent: {}
+[3.674754] (test_pkg) CommandEnded: {'returncode': 0}
+[3.720354] (test_pkg) JobEnded: {'identifier': 'test_pkg', 'rc': 0}
+[3.722922] (-) TimerEvent: {}
+[3.723212] (-) EventReactorShutdown: {}

@@ -1,0 +1,37 @@
+[2.479s] Invoking command in '/home/an/ros2_ws/src/test_pkg': PYTHONPATH=/home/an/ros2_ws/build/test_pkg/prefix_override:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/an/ros2_ws/build/test_pkg/build install --record /home/an/ros2_ws/build/test_pkg/install.log --single-version-externally-managed install_data
+[3.419s] running egg_info
+[3.421s] creating ../../build/test_pkg/test_pkg.egg-info
+[3.422s] writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO
+[3.423s] writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt
+[3.424s] writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt
+[3.424s] writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt
+[3.425s] writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt
+[3.425s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[3.432s] reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[3.435s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[3.436s] running build
+[3.436s] running build_py
+[3.437s] creating /home/an/ros2_ws/build/test_pkg/build
+[3.437s] creating /home/an/ros2_ws/build/test_pkg/build/lib
+[3.438s] creating /home/an/ros2_ws/build/test_pkg/build/lib/test_pkg
+[3.438s] copying test_pkg/__init__.py -> /home/an/ros2_ws/build/test_pkg/build/lib/test_pkg
+[3.438s] copying test_pkg/serial_motor_driver.py -> /home/an/ros2_ws/build/test_pkg/build/lib/test_pkg
+[3.439s] running install
+[3.440s] running install_lib
+[3.443s] creating /home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[3.444s] copying /home/an/ros2_ws/build/test_pkg/build/lib/test_pkg/__init__.py -> /home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[3.444s] copying /home/an/ros2_ws/build/test_pkg/build/lib/test_pkg/serial_motor_driver.py -> /home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[3.447s] byte-compiling /home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/__init__.py to __init__.cpython-310.pyc
+[3.448s] byte-compiling /home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/serial_motor_driver.py to serial_motor_driver.cpython-310.pyc
+[3.452s] running install_data
+[3.452s] creating /home/an/ros2_ws/install/test_pkg/share/ament_index
+[3.453s] creating /home/an/ros2_ws/install/test_pkg/share/ament_index/resource_index
+[3.453s] creating /home/an/ros2_ws/install/test_pkg/share/ament_index/resource_index/packages
+[3.453s] copying resource/test_pkg -> /home/an/ros2_ws/install/test_pkg/share/ament_index/resource_index/packages
+[3.454s] copying package.xml -> /home/an/ros2_ws/install/test_pkg/share/test_pkg
+[3.454s] running install_egg_info
+[3.460s] Copying ../../build/test_pkg/test_pkg.egg-info to /home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info
+[3.465s] running install_scripts
+[3.542s] Installing test_motor script to /home/an/ros2_ws/install/test_pkg/lib/test_pkg
+[3.543s] writing list of installed files to '/home/an/ros2_ws/build/test_pkg/install.log'
+[3.649s] Invoked command in '/home/an/ros2_ws/src/test_pkg' returned '0': PYTHONPATH=/home/an/ros2_ws/build/test_pkg/prefix_override:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/an/ros2_ws/build/test_pkg/build install --record /home/an/ros2_ws/build/test_pkg/install.log --single-version-externally-managed install_data

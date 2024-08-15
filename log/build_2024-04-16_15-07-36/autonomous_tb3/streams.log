@@ -1,0 +1,25 @@
+[4.801s] Invoking command in '/home/an/ros2_ws/src/autonomous_tb3': PYTHONPATH=/home/an/ros2_ws/build/autonomous_tb3/prefix_override:/home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomous_tb3 build --build-base /home/an/ros2_ws/build/autonomous_tb3/build install --record /home/an/ros2_ws/build/autonomous_tb3/install.log --single-version-externally-managed install_data
+[6.647s] running egg_info
+[6.651s] writing ../../build/autonomous_tb3/autonomous_tb3.egg-info/PKG-INFO
+[6.653s] writing dependency_links to ../../build/autonomous_tb3/autonomous_tb3.egg-info/dependency_links.txt
+[6.655s] writing entry points to ../../build/autonomous_tb3/autonomous_tb3.egg-info/entry_points.txt
+[6.656s] writing requirements to ../../build/autonomous_tb3/autonomous_tb3.egg-info/requires.txt
+[6.658s] writing top-level names to ../../build/autonomous_tb3/autonomous_tb3.egg-info/top_level.txt
+[6.671s] reading manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[6.680s] writing manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[6.681s] running build
+[6.682s] running build_py
+[6.685s] running install
+[6.688s] running install_lib
+[6.698s] running install_data
+[6.706s] running install_egg_info
+[6.717s] removing '/home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3-0.0.0-py3.10.egg-info' (and everything under it)
+[6.720s] Copying ../../build/autonomous_tb3/autonomous_tb3.egg-info to /home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3-0.0.0-py3.10.egg-info
+[6.729s] running install_scripts
+[6.844s] Installing autonomous_waiter script to /home/an/ros2_ws/install/autonomous_tb3/lib/autonomous_tb3
+[6.845s] Installing autonomous_waiter_lite script to /home/an/ros2_ws/install/autonomous_tb3/lib/autonomous_tb3
+[6.847s] Installing maze_solver script to /home/an/ros2_ws/install/autonomous_tb3/lib/autonomous_tb3
+[6.848s] Installing occupancy_grid_pub script to /home/an/ros2_ws/install/autonomous_tb3/lib/autonomous_tb3
+[6.849s] Installing sdf_spawner script to /home/an/ros2_ws/install/autonomous_tb3/lib/autonomous_tb3
+[6.852s] writing list of installed files to '/home/an/ros2_ws/build/autonomous_tb3/install.log'
+[7.023s] Invoked command in '/home/an/ros2_ws/src/autonomous_tb3' returned '0': PYTHONPATH=/home/an/ros2_ws/build/autonomous_tb3/prefix_override:/home/an/ros2_ws/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomous_tb3 build --build-base /home/an/ros2_ws/build/autonomous_tb3/build install --record /home/an/ros2_ws/build/autonomous_tb3/install.log --single-version-externally-managed install_data

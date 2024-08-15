@@ -1,0 +1,58 @@
+[1.126s] Invoking command in '/home/an/ros2_ws/build/turtlebot3_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/ros2_ws/build/turtlebot3_controller -- -j4 -l4
+[1.441s] [ 33%] Built target odom_publisher
+[1.493s] [ 66%] Built target noisy_controller
+[1.528s] [100%] Built target simple_controller
+[1.529s] [100%] Built target ament_cmake_python_copy_turtlebot3_controller
+[2.789s] running egg_info
+[2.792s] writing turtlebot3_controller.egg-info/PKG-INFO
+[2.793s] writing dependency_links to turtlebot3_controller.egg-info/dependency_links.txt
+[2.795s] writing top-level names to turtlebot3_controller.egg-info/top_level.txt
+[2.805s] reading manifest file 'turtlebot3_controller.egg-info/SOURCES.txt'
+[2.808s] writing manifest file 'turtlebot3_controller.egg-info/SOURCES.txt'
+[2.954s] [100%] Built target ament_cmake_python_build_turtlebot3_controller_egg
+[3.285s] Invoked command in '/home/an/ros2_ws/build/turtlebot3_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/ros2_ws/build/turtlebot3_controller -- -j4 -l4
+[3.461s] Invoking command in '/home/an/ros2_ws/build/turtlebot3_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/ros2_ws/build/turtlebot3_controller
+[3.493s] -- Install configuration: ""
+[3.496s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/pythonpath.sh
+[3.497s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/pythonpath.dsv
+[3.499s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller-0.0.0-py3.10.egg-info
+[3.501s] -- Installing: /home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.503s] -- Installing: /home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.506s] -- Installing: /home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[3.509s] -- Installing: /home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller-0.0.0-py3.10.egg-info/top_level.txt
+[3.512s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller
+[3.513s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller/__init__.py
+[3.514s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller/simple_controller.py
+[3.680s] Listing '/home/an/ros2_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages/turtlebot3_controller'...
+[3.709s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/include/include
+[3.711s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/include/include/turtlebot3_controller
+[3.713s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/include/include/turtlebot3_controller/noisy_controller.hpp
+[3.713s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/include/include/turtlebot3_controller/simple_controller.hpp
+[3.714s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/include/include/turtlebot3_controller/odom_publisher.hpp
+[3.715s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/lib/turtlebot3_controller/odom_publisher
+[3.717s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/lib/turtlebot3_controller/simple_controller
+[3.720s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/lib/turtlebot3_controller/noisy_controller
+[3.722s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/config
+[3.723s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/config/turtlebot3_controllers.yaml
+[3.724s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/config/diff_drive_controllers.yaml
+[3.725s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch
+[3.727s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch/controller.launch.py
+[3.730s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch/diff_drive_controller.launch.py
+[3.731s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch/launch_robot_controller.launch.py
+[3.731s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/lib/turtlebot3_controller/simple_controller.py
+[3.732s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/ament_index/resource_index/package_run_dependencies/turtlebot3_controller
+[3.733s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/ament_index/resource_index/parent_prefix_path/turtlebot3_controller
+[3.734s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/ament_prefix_path.sh
+[3.734s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/ament_prefix_path.dsv
+[3.735s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/path.sh
+[3.736s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/path.dsv
+[3.736s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/local_setup.bash
+[3.737s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/local_setup.sh
+[3.751s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/local_setup.zsh
+[3.752s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/local_setup.dsv
+[3.752s] -- Installing: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.dsv
+[3.753s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/ament_index/resource_index/packages/turtlebot3_controller
+[3.753s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/cmake/turtlebot3_controllerConfig.cmake
+[3.753s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/cmake/turtlebot3_controllerConfig-version.cmake
+[3.754s] -- Up-to-date: /home/an/ros2_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.xml
+[3.755s] Invoked command in '/home/an/ros2_ws/build/turtlebot3_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/ros2_ws/build/turtlebot3_controller

@@ -1,0 +1,19 @@
+[3.505s] Invoking command in '/home/an/ros2_ws/src/vel_driver': PYTHONPATH=/home/an/ros2_ws/build/vel_driver/prefix_override:/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vel_driver build --build-base /home/an/ros2_ws/build/vel_driver/build install --record /home/an/ros2_ws/build/vel_driver/install.log --single-version-externally-managed install_data
+[4.449s] running egg_info
+[4.452s] writing ../../build/vel_driver/vel_driver.egg-info/PKG-INFO
+[4.453s] writing dependency_links to ../../build/vel_driver/vel_driver.egg-info/dependency_links.txt
+[4.454s] writing entry points to ../../build/vel_driver/vel_driver.egg-info/entry_points.txt
+[4.455s] writing requirements to ../../build/vel_driver/vel_driver.egg-info/requires.txt
+[4.455s] writing top-level names to ../../build/vel_driver/vel_driver.egg-info/top_level.txt
+[4.459s] reading manifest file '../../build/vel_driver/vel_driver.egg-info/SOURCES.txt'
+[4.463s] writing manifest file '../../build/vel_driver/vel_driver.egg-info/SOURCES.txt'
+[4.463s] running build
+[4.464s] running install
+[4.465s] running install_data
+[4.465s] running install_egg_info
+[4.474s] removing '/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages/vel_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[4.476s] Copying ../../build/vel_driver/vel_driver.egg-info to /home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages/vel_driver-0.0.0-py3.10.egg-info
+[4.481s] running install_scripts
+[4.558s] Installing test_drive script to /home/an/ros2_ws/install/vel_driver/lib/vel_driver
+[4.559s] writing list of installed files to '/home/an/ros2_ws/build/vel_driver/install.log'
+[4.668s] Invoked command in '/home/an/ros2_ws/src/vel_driver' returned '0': PYTHONPATH=/home/an/ros2_ws/build/vel_driver/prefix_override:/home/an/ros2_ws/install/vel_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vel_driver build --build-base /home/an/ros2_ws/build/vel_driver/build install --record /home/an/ros2_ws/build/vel_driver/install.log --single-version-externally-managed install_data

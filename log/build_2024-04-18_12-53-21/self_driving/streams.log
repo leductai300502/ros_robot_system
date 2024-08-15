@@ -1,0 +1,35 @@
+[3.055s] Invoking command in '/home/an/ros2_ws/src/self_driving': PYTHONPATH=/home/an/ros2_ws/build/self_driving/prefix_override:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/self_driving build --build-base /home/an/ros2_ws/build/self_driving/build install --record /home/an/ros2_ws/build/self_driving/install.log --single-version-externally-managed install_data
+[4.034s] running egg_info
+[4.037s] writing ../../build/self_driving/self_driving.egg-info/PKG-INFO
+[4.043s] writing dependency_links to ../../build/self_driving/self_driving.egg-info/dependency_links.txt
+[4.044s] writing entry points to ../../build/self_driving/self_driving.egg-info/entry_points.txt
+[4.045s] writing requirements to ../../build/self_driving/self_driving.egg-info/requires.txt
+[4.046s] writing top-level names to ../../build/self_driving/self_driving.egg-info/top_level.txt
+[4.058s] reading manifest file '../../build/self_driving/self_driving.egg-info/SOURCES.txt'
+[4.062s] adding license file 'LICENSE'
+[4.067s] writing manifest file '../../build/self_driving/self_driving.egg-info/SOURCES.txt'
+[4.068s] running build
+[4.068s] running build_py
+[4.071s] copying self_driving/wheel_left_right.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving
+[4.073s] copying self_driving/drive_BOT.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving
+[4.074s] copying self_driving/ros2_camera.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving
+[4.085s] running install
+[4.086s] running install_lib
+[4.090s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/wheel_left_right.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving
+[4.091s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/drive_BOT.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving
+[4.096s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/ros2_camera.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving
+[4.100s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/wheel_left_right.py to wheel_left_right.cpython-310.pyc
+[4.105s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/drive_BOT.py to drive_BOT.cpython-310.pyc
+[4.119s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/ros2_camera.py to ros2_camera.cpython-310.pyc
+[4.119s] running install_data
+[4.120s] running install_egg_info
+[4.127s] removing '/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving-0.0.0-py3.10.egg-info' (and everything under it)
+[4.129s] Copying ../../build/self_driving/self_driving.egg-info to /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving-0.0.0-py3.10.egg-info
+[4.139s] running install_scripts
+[4.233s] Installing cam_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving
+[4.234s] Installing computer_vision_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving
+[4.235s] Installing driving_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving
+[4.236s] Installing recorder_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving
+[4.238s] Installing vel_wheel_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving
+[4.243s] writing list of installed files to '/home/an/ros2_ws/build/self_driving/install.log'
+[4.369s] Invoked command in '/home/an/ros2_ws/src/self_driving' returned '0': PYTHONPATH=/home/an/ros2_ws/build/self_driving/prefix_override:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/self_driving build --build-base /home/an/ros2_ws/build/self_driving/build install --record /home/an/ros2_ws/build/self_driving/install.log --single-version-externally-managed install_data

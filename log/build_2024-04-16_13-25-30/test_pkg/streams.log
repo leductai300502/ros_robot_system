@@ -1,0 +1,21 @@
+[4.857s] Invoking command in '/home/an/ros2_ws/src/test_pkg': PYTHONPATH=/home/an/ros2_ws/build/test_pkg/prefix_override:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/an/ros2_ws/build/test_pkg/build install --record /home/an/ros2_ws/build/test_pkg/install.log --single-version-externally-managed install_data
+[6.449s] running egg_info
+[6.452s] writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO
+[6.454s] writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt
+[6.455s] writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt
+[6.457s] writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt
+[6.458s] writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt
+[6.469s] reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[6.475s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[6.476s] running build
+[6.477s] running build_py
+[6.478s] running install
+[6.480s] running install_lib
+[6.487s] running install_data
+[6.488s] running install_egg_info
+[6.497s] removing '/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[6.498s] Copying ../../build/test_pkg/test_pkg.egg-info to /home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info
+[6.512s] running install_scripts
+[6.615s] Installing test_motor script to /home/an/ros2_ws/install/test_pkg/lib/test_pkg
+[6.619s] writing list of installed files to '/home/an/ros2_ws/build/test_pkg/install.log'
+[8.349s] Invoked command in '/home/an/ros2_ws/src/test_pkg' returned '0': PYTHONPATH=/home/an/ros2_ws/build/test_pkg/prefix_override:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/an/ros2_ws/build/test_pkg/build install --record /home/an/ros2_ws/build/test_pkg/install.log --single-version-externally-managed install_data

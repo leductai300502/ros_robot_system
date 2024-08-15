@@ -1,0 +1,11 @@
+[1.136s] Invoking command in '/home/an/ros2_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/ros2_ws/build/ld08_driver -- -j4 -l4
+[1.315s] [35m[1mConsolidate compiler generated dependencies of target ld08_driver[0m
+[1.426s] [ 16%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/cmd_interface_linux.cpp.o[0m
+[2.080s] [01m[K/home/an/ros2_ws/src/ldlidar_ros2/src/ld08_driver/src/cmd_interface_linux.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Klibudev.h: No such file or directory
+[2.081s]    19 | #include [01;31m[K<libudev.h>[m[K
+[2.081s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[2.081s] compilation terminated.
+[2.089s] gmake[2]: *** [CMakeFiles/ld08_driver.dir/build.make:76: CMakeFiles/ld08_driver.dir/src/cmd_interface_linux.cpp.o] Error 1
+[2.090s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ld08_driver.dir/all] Error 2
+[2.091s] gmake: *** [Makefile:146: all] Error 2
+[2.354s] Invoked command in '/home/an/ros2_ws/build/ld08_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/ros2_ws/build/ld08_driver -- -j4 -l4

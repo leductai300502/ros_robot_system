@@ -1,0 +1,72 @@
+[1.249s] Invoking command in '/home/an/ros2_ws/build/turtlebot3_controller': CMAKE_PREFIX_PATH=/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/ros2_ws/build/turtlebot3_controller -- -j4 -l4
+[1.562s] [ 16%] [32mBuilding CXX object CMakeFiles/odom_publisher.dir/src/odom_publisher.cpp.o[0m
+[1.574s] [ 33%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[1.624s] [ 50%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[1.698s] [ 50%] Built target ament_cmake_python_copy_turtlebot3_controller
+[2.982s] running egg_info
+[2.984s] creating turtlebot3_controller.egg-info
+[2.985s] writing turtlebot3_controller.egg-info/PKG-INFO
+[2.986s] writing dependency_links to turtlebot3_controller.egg-info/dependency_links.txt
+[2.987s] writing top-level names to turtlebot3_controller.egg-info/top_level.txt
+[2.989s] writing manifest file 'turtlebot3_controller.egg-info/SOURCES.txt'
+[2.999s] reading manifest file 'turtlebot3_controller.egg-info/SOURCES.txt'
+[3.002s] writing manifest file 'turtlebot3_controller.egg-info/SOURCES.txt'
+[3.140s] [ 50%] Built target ament_cmake_python_build_turtlebot3_controller_egg
+[21.854s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[21.854s]                  from [01m[K/home/an/ros2_ws/src/turtlebot3_controller/include/turtlebot3_controller/simple_controller.hpp:6[m[K,
+[21.855s]                  from [01m[K/home/an/ros2_ws/src/turtlebot3_controller/src/simple_controller.cpp:1[m[K:
+[21.856s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[21.857s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[21.858s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[21.859s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.860s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[21.860s]                  from [01m[K/home/an/ros2_ws/src/turtlebot3_controller/include/turtlebot3_controller/simple_controller.hpp:6[m[K,
+[21.861s]                  from [01m[K/home/an/ros2_ws/src/turtlebot3_controller/src/simple_controller.cpp:1[m[K:
+[21.862s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[21.863s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[21.864s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[21.866s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[21.867s]                  from [01m[K/home/an/ros2_ws/src/turtlebot3_controller/include/turtlebot3_controller/simple_controller.hpp:6[m[K,
+[21.869s]                  from [01m[K/home/an/ros2_ws/src/turtlebot3_controller/src/simple_controller.cpp:1[m[K:
+[21.870s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[21.871s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[21.872s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[21.873s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.874s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[21.875s]                  from [01m[K/home/an/ros2_ws/src/turtlebot3_controller/include/turtlebot3_controller/simple_controller.hpp:6[m[K,
+[21.876s]                  from [01m[K/home/an/ros2_ws/src/turtlebot3_controller/src/simple_controller.cpp:1[m[K:
+[21.877s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[21.878s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[21.879s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[22.373s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[22.375s]                  from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+[22.376s]                  from [01m[K/home/an/ros2_ws/src/turtlebot3_controller/src/noisy_controller.cpp:2[m[K:
+[22.377s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[22.378s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[22.379s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[22.380s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.381s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[22.382s]                  from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+[22.384s]                  from [01m[K/home/an/ros2_ws/src/turtlebot3_controller/src/noisy_controller.cpp:2[m[K:
+[22.385s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[22.386s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[22.387s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[22.389s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[22.390s]                  from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+[22.391s]                  from [01m[K/home/an/ros2_ws/src/turtlebot3_controller/src/noisy_controller.cpp:2[m[K:
+[22.392s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[22.393s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[22.395s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[22.396s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.397s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[22.398s]                  from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+[22.399s]                  from [01m[K/home/an/ros2_ws/src/turtlebot3_controller/src/noisy_controller.cpp:2[m[K:
+[22.400s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[22.401s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[22.402s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[52.442s] [ 66%] [32m[1mLinking CXX executable odom_publisher[0m
+[56.158s] [ 66%] Built target odom_publisher
+[57.686s] [ 83%] [32m[1mLinking CXX executable noisy_controller[0m
+[60.049s] [ 83%] Built target noisy_controller
+[71.354s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[74.374s] [100%] Built target simple_controller

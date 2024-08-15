@@ -1,0 +1,35 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_esp32.dir/hardware/diffbot_system.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libdiffdrive_esp32.so[0m
+[100%] Built target diffdrive_esp32
+-- Install configuration: ""
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/diffdrive_esp32.xml
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/esp32_comms.hpp
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/visibility_control.h
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/wheel.hpp
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/diffbot_system.hpp
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/lib/libdiffdrive_esp32.so
+-- Set runtime path of "/home/an/ros2_ws/install/diffdrive_esp32/lib/libdiffdrive_esp32.so" to ""
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/library_path.sh
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/library_path.dsv
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/ament_index/resource_index/package_run_dependencies/diffdrive_esp32
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/ament_index/resource_index/parent_prefix_path/diffdrive_esp32
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/ament_prefix_path.sh
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/ament_prefix_path.dsv
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/path.sh
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/path.dsv
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.bash
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.sh
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.zsh
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.dsv
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.dsv
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/ament_index/resource_index/packages/diffdrive_esp32
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_esp32
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/export_diffdrive_esp32Export.cmake
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/export_diffdrive_esp32Export-noconfig.cmake
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/diffdrive_esp32Config.cmake
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/diffdrive_esp32Config-version.cmake
+-- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.xml

@@ -1,0 +1,50 @@
+[0.070s] Invoking command in '/home/an/ros2_ws/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/ros2_ws/src/turtlebot3_bringup -DCMAKE_INSTALL_PREFIX=/home/an/ros2_ws/install/turtlebot3_bringup
+[1.356s] -- The C compiler identification is GNU 11.4.0
+[2.085s] -- The CXX compiler identification is GNU 11.4.0
+[2.134s] -- Detecting C compiler ABI info
+[2.535s] -- Detecting C compiler ABI info - done
+[2.568s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.573s] -- Detecting C compile features
+[2.577s] -- Detecting C compile features - done
+[2.602s] -- Detecting CXX compiler ABI info
+[3.005s] -- Detecting CXX compiler ABI info - done
+[3.036s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.037s] -- Detecting CXX compile features
+[3.039s] -- Detecting CXX compile features - done
+[3.070s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.917s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.062s] -- Configuring done
+[5.086s] -- Generating done
+[5.090s] -- Build files have been written to: /home/an/ros2_ws/build/turtlebot3_bringup
+[5.104s] Invoked command in '/home/an/ros2_ws/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/ros2_ws/src/turtlebot3_bringup -DCMAKE_INSTALL_PREFIX=/home/an/ros2_ws/install/turtlebot3_bringup
+[5.112s] Invoking command in '/home/an/ros2_ws/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/ros2_ws/build/turtlebot3_bringup -- -j4 -l4
+[5.265s] Invoked command in '/home/an/ros2_ws/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/ros2_ws/build/turtlebot3_bringup -- -j4 -l4
+[5.390s] Invoking command in '/home/an/ros2_ws/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/ros2_ws/build/turtlebot3_bringup
+[5.420s] -- Install configuration: ""
+[5.421s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch
+[5.421s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/robot.launch.py
+[5.422s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/rviz2.launch.py
+[5.423s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/turtlebot3_state_publisher.launch.py
+[5.424s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param
+[5.425s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle.yaml
+[5.426s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/burger.yaml
+[5.426s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle_pi.yaml
+[5.427s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/script
+[5.428s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/script/99-turtlebot3-cdc.rules
+[5.429s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/script/create_udev_rules
+[5.430s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot3_bringup
+[5.432s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot3_bringup
+[5.434s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.sh
+[5.435s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.dsv
+[5.436s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.sh
+[5.437s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.dsv
+[5.438s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.bash
+[5.439s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.sh
+[5.441s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.zsh
+[5.442s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.dsv
+[5.443s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv
+[5.444s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/ament_index/resource_index/packages/turtlebot3_bringup
+[5.446s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig.cmake
+[5.448s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig-version.cmake
+[5.450s] -- Installing: /home/an/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.xml
+[5.458s] Invoked command in '/home/an/ros2_ws/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/ros2_ws/build/turtlebot3_bringup

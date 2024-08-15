@@ -1,0 +1,106 @@
+[5.260s] Invoking command in '/home/an/ros2_ws/src/self_driving': PYTHONPATH=/home/an/ros2_ws/build/self_driving/prefix_override:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/self_driving build --build-base /home/an/ros2_ws/build/self_driving/build install --record /home/an/ros2_ws/build/self_driving/install.log --single-version-externally-managed install_data
+[6.350s] running egg_info
+[6.353s] creating ../../build/self_driving/self_driving.egg-info
+[6.353s] writing ../../build/self_driving/self_driving.egg-info/PKG-INFO
+[6.354s] writing dependency_links to ../../build/self_driving/self_driving.egg-info/dependency_links.txt
+[6.355s] writing entry points to ../../build/self_driving/self_driving.egg-info/entry_points.txt
+[6.356s] writing requirements to ../../build/self_driving/self_driving.egg-info/requires.txt
+[6.356s] writing top-level names to ../../build/self_driving/self_driving.egg-info/top_level.txt
+[6.357s] writing manifest file '../../build/self_driving/self_driving.egg-info/SOURCES.txt'
+[6.369s] reading manifest file '../../build/self_driving/self_driving.egg-info/SOURCES.txt'
+[6.370s] adding license file 'LICENSE'
+[6.373s] writing manifest file '../../build/self_driving/self_driving.egg-info/SOURCES.txt'
+[6.374s] running build
+[6.374s] running build_py
+[6.375s] creating /home/an/ros2_ws/build/self_driving/build
+[6.375s] creating /home/an/ros2_ws/build/self_driving/build/lib
+[6.376s] creating /home/an/ros2_ws/build/self_driving/build/lib/self_driving
+[6.376s] copying self_driving/wheel_left_right.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving
+[6.377s] copying self_driving/__init__.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving
+[6.377s] copying self_driving/computer_vision_node.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving
+[6.378s] copying self_driving/drive_BOT.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving
+[6.379s] copying self_driving/driving_node.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving
+[6.380s] copying self_driving/traffic_signal.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving
+[6.381s] copying self_driving/ros2_camera.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving
+[6.382s] copying self_driving/start_robot.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving
+[6.383s] copying self_driving/video_recorder.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving
+[6.384s] creating /home/an/ros2_ws/build/self_driving/build/lib/self_driving/config
+[6.385s] copying self_driving/config/__init__.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving/config
+[6.385s] copying self_driving/config/config.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving/config
+[6.390s] creating /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection
+[6.390s] copying self_driving/Detection/__init__.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection
+[6.391s] creating /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes
+[6.391s] copying self_driving/Detection/Lanes/__init__.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes
+[6.392s] copying self_driving/Detection/Lanes/utilities.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes
+[6.392s] copying self_driving/Detection/Lanes/c_cleaning.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes
+[6.393s] copying self_driving/Detection/Lanes/lane_detection.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes
+[6.394s] copying self_driving/Detection/Lanes/d_data_extraction.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes
+[6.395s] copying self_driving/Detection/Lanes/Morph_op.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes
+[6.396s] copying self_driving/Detection/Lanes/a_colour_segmentation.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes
+[6.397s] copying self_driving/Detection/Lanes/b_midlane_estimation.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes
+[6.399s] running install
+[6.401s] running install_lib
+[6.404s] creating /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving
+[6.405s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/wheel_left_right.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving
+[6.405s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/__init__.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving
+[6.407s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/computer_vision_node.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving
+[6.408s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/drive_BOT.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving
+[6.408s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/driving_node.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving
+[6.409s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/traffic_signal.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving
+[6.410s] creating /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection
+[6.411s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/__init__.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection
+[6.412s] creating /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes
+[6.412s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes/__init__.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes
+[6.413s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes/utilities.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes
+[6.414s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes/c_cleaning.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes
+[6.415s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes/lane_detection.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes
+[6.417s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes/d_data_extraction.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes
+[6.421s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes/Morph_op.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes
+[6.423s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes/a_colour_segmentation.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes
+[6.423s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes/b_midlane_estimation.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes
+[6.424s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/ros2_camera.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving
+[6.424s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/start_robot.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving
+[6.425s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/video_recorder.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving
+[6.425s] creating /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/config
+[6.426s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/config/__init__.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/config
+[6.426s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/config/config.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/config
+[6.429s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/wheel_left_right.py to wheel_left_right.cpython-310.pyc
+[6.432s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/__init__.py to __init__.cpython-310.pyc
+[6.434s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/computer_vision_node.py to computer_vision_node.cpython-310.pyc
+[6.436s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/drive_BOT.py to drive_BOT.cpython-310.pyc
+[6.443s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/driving_node.py to driving_node.cpython-310.pyc
+[6.445s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/traffic_signal.py to traffic_signal.cpython-310.pyc
+[6.450s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/__init__.py to __init__.cpython-310.pyc
+[6.451s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes/__init__.py to __init__.cpython-310.pyc
+[6.453s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes/utilities.py to utilities.cpython-310.pyc
+[6.458s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes/c_cleaning.py to c_cleaning.cpython-310.pyc
+[6.463s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes/lane_detection.py to lane_detection.cpython-310.pyc
+[6.464s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes/d_data_extraction.py to d_data_extraction.cpython-310.pyc
+[6.468s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes/Morph_op.py to Morph_op.cpython-310.pyc
+[6.474s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes/a_colour_segmentation.py to a_colour_segmentation.cpython-310.pyc
+[6.477s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes/b_midlane_estimation.py to b_midlane_estimation.cpython-310.pyc
+[6.482s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/ros2_camera.py to ros2_camera.cpython-310.pyc
+[6.484s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/start_robot.py to start_robot.cpython-310.pyc
+[6.488s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/video_recorder.py to video_recorder.cpython-310.pyc
+[6.492s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/config/__init__.py to __init__.cpython-310.pyc
+[6.493s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/config/config.py to config.cpython-310.pyc
+[6.495s] running install_data
+[6.496s] creating /home/an/ros2_ws/install/self_driving/share/ament_index
+[6.496s] creating /home/an/ros2_ws/install/self_driving/share/ament_index/resource_index
+[6.497s] creating /home/an/ros2_ws/install/self_driving/share/ament_index/resource_index/packages
+[6.497s] copying resource/self_driving -> /home/an/ros2_ws/install/self_driving/share/ament_index/resource_index/packages
+[6.498s] copying package.xml -> /home/an/ros2_ws/install/self_driving/share/self_driving
+[6.498s] creating /home/an/ros2_ws/install/self_driving/share/self_driving/launch
+[6.499s] copying launch/start.launch.py -> /home/an/ros2_ws/install/self_driving/share/self_driving/launch
+[6.499s] running install_egg_info
+[6.506s] Copying ../../build/self_driving/self_driving.egg-info to /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving-0.0.0-py3.10.egg-info
+[6.511s] running install_scripts
+[6.599s] Installing cam_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving
+[6.600s] Installing computer_vision_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving
+[6.600s] Installing driving_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving
+[6.601s] Installing recorder_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving
+[6.602s] Installing start_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving
+[6.602s] Installing traffic_signal_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving
+[6.603s] Installing vel_wheel_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving
+[6.607s] writing list of installed files to '/home/an/ros2_ws/build/self_driving/install.log'
+[6.740s] Invoked command in '/home/an/ros2_ws/src/self_driving' returned '0': PYTHONPATH=/home/an/ros2_ws/build/self_driving/prefix_override:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/self_driving build --build-base /home/an/ros2_ws/build/self_driving/build install --record /home/an/ros2_ws/build/self_driving/install.log --single-version-externally-managed install_data

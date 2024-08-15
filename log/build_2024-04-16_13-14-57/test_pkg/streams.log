@@ -1,0 +1,24 @@
+[2.497s] Invoking command in '/home/an/ros2_ws/src/test_pkg': PYTHONPATH=/home/an/ros2_ws/build/test_pkg/prefix_override:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/an/ros2_ws/build/test_pkg/build install --record /home/an/ros2_ws/build/test_pkg/install.log --single-version-externally-managed install_data
+[3.443s] running egg_info
+[3.446s] writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO
+[3.447s] writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt
+[3.447s] writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt
+[3.448s] writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt
+[3.449s] writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt
+[3.456s] reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[3.460s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[3.460s] running build
+[3.461s] running build_py
+[3.461s] copying test_pkg/serial_motor_driver.py -> /home/an/ros2_ws/build/test_pkg/build/lib/test_pkg
+[3.463s] running install
+[3.464s] running install_lib
+[3.467s] copying /home/an/ros2_ws/build/test_pkg/build/lib/test_pkg/serial_motor_driver.py -> /home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[3.470s] byte-compiling /home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/serial_motor_driver.py to serial_motor_driver.cpython-310.pyc
+[3.473s] running install_data
+[3.474s] running install_egg_info
+[3.480s] removing '/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.482s] Copying ../../build/test_pkg/test_pkg.egg-info to /home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info
+[3.487s] running install_scripts
+[3.564s] Installing test_motor script to /home/an/ros2_ws/install/test_pkg/lib/test_pkg
+[3.565s] writing list of installed files to '/home/an/ros2_ws/build/test_pkg/install.log'
+[3.672s] Invoked command in '/home/an/ros2_ws/src/test_pkg' returned '0': PYTHONPATH=/home/an/ros2_ws/build/test_pkg/prefix_override:/home/an/ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/an/ros2_ws/build/test_pkg/build install --record /home/an/ros2_ws/build/test_pkg/install.log --single-version-externally-managed install_data

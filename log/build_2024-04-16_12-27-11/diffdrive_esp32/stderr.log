@@ -1,0 +1,9 @@
+In file included from [01m[K/home/an/ros2_ws/src/diffdrive_esp32/hardware/include/diffdrive_esp32/diffbot_system.hpp:21[m[K,
+                 from [01m[K/home/an/ros2_ws/src/diffdrive_esp32/hardware/diffbot_system.cpp:1[m[K:
+[01m[K/home/an/ros2_ws/src/diffdrive_esp32/hardware/include/diffdrive_esp32/esp32_comms.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Klibserial/SerialPort.h: No such file or directory
+    5 | #include [01;31m[K<libserial/SerialPort.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/diffdrive_esp32.dir/build.make:76: CMakeFiles/diffdrive_esp32.dir/hardware/diffbot_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/diffdrive_esp32.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

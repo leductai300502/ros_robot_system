@@ -1,0 +1,32 @@
+[2.436s] Invoking command in '/home/an/ros2_ws/src/self_driving': PYTHONPATH=/home/an/ros2_ws/build/self_driving/prefix_override:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/self_driving build --build-base /home/an/ros2_ws/build/self_driving/build install --record /home/an/ros2_ws/build/self_driving/install.log --single-version-externally-managed install_data
+[3.334s] running egg_info
+[3.337s] writing ../../build/self_driving/self_driving.egg-info/PKG-INFO
+[3.338s] writing dependency_links to ../../build/self_driving/self_driving.egg-info/dependency_links.txt
+[3.338s] writing entry points to ../../build/self_driving/self_driving.egg-info/entry_points.txt
+[3.339s] writing requirements to ../../build/self_driving/self_driving.egg-info/requires.txt
+[3.340s] writing top-level names to ../../build/self_driving/self_driving.egg-info/top_level.txt
+[3.349s] reading manifest file '../../build/self_driving/self_driving.egg-info/SOURCES.txt'
+[3.351s] adding license file 'LICENSE'
+[3.354s] writing manifest file '../../build/self_driving/self_driving.egg-info/SOURCES.txt'
+[3.355s] running build
+[3.355s] running build_py
+[3.356s] copying self_driving/computer_vision_node.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving
+[3.357s] copying self_driving/drive_BOT.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving
+[3.364s] running install
+[3.365s] running install_lib
+[3.369s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/computer_vision_node.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving
+[3.370s] copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/drive_BOT.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving
+[3.376s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/computer_vision_node.py to computer_vision_node.cpython-310.pyc
+[3.379s] byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/drive_BOT.py to drive_BOT.cpython-310.pyc
+[3.388s] running install_data
+[3.389s] running install_egg_info
+[3.395s] removing '/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving-0.0.0-py3.10.egg-info' (and everything under it)
+[3.397s] Copying ../../build/self_driving/self_driving.egg-info to /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving-0.0.0-py3.10.egg-info
+[3.403s] running install_scripts
+[3.476s] Installing cam_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving
+[3.477s] Installing computer_vision_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving
+[3.478s] Installing driving_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving
+[3.479s] Installing recorder_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving
+[3.479s] Installing vel_wheel_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving
+[3.483s] writing list of installed files to '/home/an/ros2_ws/build/self_driving/install.log'
+[3.592s] Invoked command in '/home/an/ros2_ws/src/self_driving' returned '0': PYTHONPATH=/home/an/ros2_ws/build/self_driving/prefix_override:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/self_driving build --build-base /home/an/ros2_ws/build/self_driving/build install --record /home/an/ros2_ws/build/self_driving/install.log --single-version-externally-managed install_data

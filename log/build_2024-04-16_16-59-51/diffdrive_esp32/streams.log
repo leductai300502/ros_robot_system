@@ -1,0 +1,73 @@
+[0.110s] Invoking command in '/home/an/ros2_ws/build/diffdrive_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake /home/an/ros2_ws/src/diffdrive_esp32 -DCMAKE_INSTALL_PREFIX=/home/an/ros2_ws/install/diffdrive_esp32
+[2.361s] -- The CXX compiler identification is GNU 11.4.0
+[2.459s] -- Detecting CXX compiler ABI info
+[2.942s] -- Detecting CXX compiler ABI info - done
+[2.994s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.003s] -- Detecting CXX compile features
+[3.008s] -- Detecting CXX compile features - done
+[3.043s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.066s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.201s] -- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[5.653s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.718s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.820s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.984s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.265s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.976s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.005s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.237s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.495s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.515s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.578s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.621s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.659s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.708s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.807s] -- Looking for C++ include pthread.h
+[11.259s] -- Looking for C++ include pthread.h - found
+[11.261s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.718s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.723s] -- Found Threads: TRUE  
+[12.618s] -- Found ament_cmake_pytest: 1.3.8 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[16.161s] -- Configuring done
+[16.536s] -- Generating done
+[16.545s] -- Build files have been written to: /home/an/ros2_ws/build/diffdrive_esp32
+[16.584s] Invoked command in '/home/an/ros2_ws/build/diffdrive_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake /home/an/ros2_ws/src/diffdrive_esp32 -DCMAKE_INSTALL_PREFIX=/home/an/ros2_ws/install/diffdrive_esp32
+[16.591s] Invoking command in '/home/an/ros2_ws/build/diffdrive_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /home/an/ros2_ws/build/diffdrive_esp32 -- -j4 -l4
+[16.807s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_esp32.dir/hardware/diffbot_system.cpp.o[0m
+[39.159s] [100%] [32m[1mLinking CXX shared library libdiffdrive_esp32.so[0m
+[40.653s] [100%] Built target diffdrive_esp32
+[40.720s] Invoked command in '/home/an/ros2_ws/build/diffdrive_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /home/an/ros2_ws/build/diffdrive_esp32 -- -j4 -l4
+[40.897s] Invoking command in '/home/an/ros2_ws/build/diffdrive_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /home/an/ros2_ws/build/diffdrive_esp32
+[40.950s] -- Install configuration: ""
+[40.951s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/diffdrive_esp32.xml
+[40.957s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32
+[40.959s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32
+[40.960s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/esp32_comms.hpp
+[40.962s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/visibility_control.h
+[40.964s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/wheel.hpp
+[40.966s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/diffbot_system.hpp
+[40.968s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/lib/libdiffdrive_esp32.so
+[40.979s] -- Set runtime path of "/home/an/ros2_ws/install/diffdrive_esp32/lib/libdiffdrive_esp32.so" to ""
+[40.980s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/library_path.sh
+[40.982s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/library_path.dsv
+[40.985s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/ament_index/resource_index/package_run_dependencies/diffdrive_esp32
+[40.988s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/ament_index/resource_index/parent_prefix_path/diffdrive_esp32
+[40.990s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/ament_prefix_path.sh
+[40.992s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/ament_prefix_path.dsv
+[40.994s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/path.sh
+[40.996s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/path.dsv
+[40.998s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.bash
+[41.000s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.sh
+[41.002s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.zsh
+[41.003s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.dsv
+[41.005s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.dsv
+[41.008s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/ament_index/resource_index/packages/diffdrive_esp32
+[41.010s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_esp32
+[41.013s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/export_diffdrive_esp32Export.cmake
+[41.015s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/export_diffdrive_esp32Export-noconfig.cmake
+[41.017s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/ament_cmake_export_targets-extras.cmake
+[41.020s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.022s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/diffdrive_esp32Config.cmake
+[41.023s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/diffdrive_esp32Config-version.cmake
+[41.025s] -- Installing: /home/an/ros2_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.xml
+[41.039s] Invoked command in '/home/an/ros2_ws/build/diffdrive_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/vel_driver:/home/an/ros2_ws/install/test_pkg:/home/an/ros2_ws/install/self_driving:/home/an/ros2_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /home/an/ros2_ws/build/diffdrive_esp32

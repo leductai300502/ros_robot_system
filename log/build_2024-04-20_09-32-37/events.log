@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.001558] (self_driving) JobQueued: {'identifier': 'self_driving', 'dependencies': OrderedDict()}
+[0.002136] (self_driving) JobStarted: {'identifier': 'self_driving'}
+[0.099088] (-) TimerEvent: {}
+[0.199748] (-) TimerEvent: {}
+[0.300404] (-) TimerEvent: {}
+[0.401158] (-) TimerEvent: {}
+[0.501784] (-) TimerEvent: {}
+[0.602403] (-) TimerEvent: {}
+[0.703021] (-) TimerEvent: {}
+[0.803652] (-) TimerEvent: {}
+[0.904260] (-) TimerEvent: {}
+[1.004964] (-) TimerEvent: {}
+[1.105934] (-) TimerEvent: {}
+[1.207361] (-) TimerEvent: {}
+[1.308054] (-) TimerEvent: {}
+[1.408746] (-) TimerEvent: {}
+[1.509650] (-) TimerEvent: {}
+[1.610511] (-) TimerEvent: {}
+[1.711251] (-) TimerEvent: {}
+[1.812218] (-) TimerEvent: {}
+[1.913500] (-) TimerEvent: {}
+[2.014508] (-) TimerEvent: {}
+[2.115081] (-) TimerEvent: {}
+[2.215655] (-) TimerEvent: {}
+[2.316250] (-) TimerEvent: {}
+[2.416858] (-) TimerEvent: {}
+[2.517638] (-) TimerEvent: {}
+[2.631924] (-) TimerEvent: {}
+[2.733276] (-) TimerEvent: {}
+[2.834321] (-) TimerEvent: {}
+[2.839391] (self_driving) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/self_driving', 'build', '--build-base', '/home/an/ros2_ws/build/self_driving/build', 'install', '--record', '/home/an/ros2_ws/build/self_driving/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/an/ros2_ws/src/self_driving', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'an', 'SSH_CLIENT': '192.168.137.1 50703 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/an/an_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/an', 'OLDPWD': '/home/an', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/an/an_ws/install:/home/an/autonomous_tb3_ws/install:/home/an/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'an', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '9', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/an/ros2_ws/install/self_driving:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/diffdrive_esp32:/home/an/autonomous_tb3_ws/install/wheel_vel:/home/an/autonomous_tb3_ws/install/vel_driver:/home/an/autonomous_tb3_ws/install/turtlebot3_bringup:/home/an/autonomous_tb3_ws/install/turtlebot3_description:/home/an/autonomous_tb3_ws/install/autonomous_tb3:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/an/ros2_ws/build/self_driving', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 50703 192.168.137.35 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-01', 'PYTHONPATH': '/home/an/ros2_ws/build/self_driving/prefix_override:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/home/an/an_ws/install/turtlebot3_controller/local/lib/python3.10/dist-packages:/home/an/autonomous_tb3_ws/install/wheel_vel/lib/python3.10/site-packages:/home/an/autonomous_tb3_ws/install/vel_driver/lib/python3.10/site-packages:/home/an/autonomous_tb3_ws/install/autonomous_tb3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/diffdrive_esp32:/home/an/autonomous_tb3_ws/install/turtlebot3_bringup:/home/an/autonomous_tb3_ws/install/turtlebot3_description'}, 'shell': False}
+[2.934489] (-) TimerEvent: {}
+[3.035099] (-) TimerEvent: {}
+[3.135776] (-) TimerEvent: {}
+[3.236608] (-) TimerEvent: {}
+[3.337871] (-) TimerEvent: {}
+[3.438673] (-) TimerEvent: {}
+[3.539637] (-) TimerEvent: {}
+[3.640297] (-) TimerEvent: {}
+[3.741071] (-) TimerEvent: {}
+[3.841697] (-) TimerEvent: {}
+[3.903670] (self_driving) StdoutLine: {'line': b'running egg_info\n'}
+[3.906730] (self_driving) StdoutLine: {'line': b'writing ../../build/self_driving/self_driving.egg-info/PKG-INFO\n'}
+[3.907836] (self_driving) StdoutLine: {'line': b'writing dependency_links to ../../build/self_driving/self_driving.egg-info/dependency_links.txt\n'}
+[3.908753] (self_driving) StdoutLine: {'line': b'writing entry points to ../../build/self_driving/self_driving.egg-info/entry_points.txt\n'}
+[3.909508] (self_driving) StdoutLine: {'line': b'writing requirements to ../../build/self_driving/self_driving.egg-info/requires.txt\n'}
+[3.910031] (self_driving) StdoutLine: {'line': b'writing top-level names to ../../build/self_driving/self_driving.egg-info/top_level.txt\n'}
+[3.922607] (self_driving) StdoutLine: {'line': b"reading manifest file '../../build/self_driving/self_driving.egg-info/SOURCES.txt'\n"}
+[3.924293] (self_driving) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.927393] (self_driving) StdoutLine: {'line': b"writing manifest file '../../build/self_driving/self_driving.egg-info/SOURCES.txt'\n"}
+[3.927991] (self_driving) StdoutLine: {'line': b'running build\n'}
+[3.928434] (self_driving) StdoutLine: {'line': b'running build_py\n'}
+[3.933969] (self_driving) StdoutLine: {'line': b'copying self_driving/Detection/Lanes/a_colour_segmentation.py -> /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes\n'}
+[3.936956] (self_driving) StdoutLine: {'line': b'running install\n'}
+[3.938431] (self_driving) StdoutLine: {'line': b'running install_lib\n'}
+[3.941835] (-) TimerEvent: {}
+[3.946198] (self_driving) StdoutLine: {'line': b'copying /home/an/ros2_ws/build/self_driving/build/lib/self_driving/Detection/Lanes/a_colour_segmentation.py -> /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes\n'}
+[3.952943] (self_driving) StdoutLine: {'line': b'byte-compiling /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving/Detection/Lanes/a_colour_segmentation.py to a_colour_segmentation.cpython-310.pyc\n'}
+[3.959048] (self_driving) StdoutLine: {'line': b'running install_data\n'}
+[3.959684] (self_driving) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.966408] (self_driving) StdoutLine: {'line': b"removing '/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.968150] (self_driving) StdoutLine: {'line': b'Copying ../../build/self_driving/self_driving.egg-info to /home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages/self_driving-0.0.0-py3.10.egg-info\n'}
+[3.974511] (self_driving) StdoutLine: {'line': b'running install_scripts\n'}
+[4.042110] (-) TimerEvent: {}
+[4.064032] (self_driving) StdoutLine: {'line': b'Installing cam_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving\n'}
+[4.064841] (self_driving) StdoutLine: {'line': b'Installing computer_vision_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving\n'}
+[4.065641] (self_driving) StdoutLine: {'line': b'Installing driving_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving\n'}
+[4.066359] (self_driving) StdoutLine: {'line': b'Installing recorder_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving\n'}
+[4.066980] (self_driving) StdoutLine: {'line': b'Installing vel_wheel_node script to /home/an/ros2_ws/install/self_driving/lib/self_driving\n'}
+[4.071477] (self_driving) StdoutLine: {'line': b"writing list of installed files to '/home/an/ros2_ws/build/self_driving/install.log'\n"}
+[4.142666] (-) TimerEvent: {}
+[4.202602] (self_driving) CommandEnded: {'returncode': 0}
+[4.243941] (-) TimerEvent: {}
+[4.254591] (self_driving) JobEnded: {'identifier': 'self_driving', 'rc': 0}
+[4.257315] (-) EventReactorShutdown: {}
